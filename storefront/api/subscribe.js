@@ -1,24 +1,46 @@
-const fs = require('fs');
-const path = require('path');
-
 module.exports = async function handler(req, res) {
   if (req.method !== 'POST') {
     res.setHeader('Allow', 'POST');
     return res.status(405).end('Method Not Allowed');
   }
 
-  // Parse body
   let body = '';
   for await (const chunk of req) body += chunk;
   const params = new URLSearchParams(body);
   const email = (params.get('email') || '').trim().toLowerCase();
+  const source = (params.get('source') || 'storefront').trim();
 
-  if (!email || !email.includes('@')) {
+  if (!email || !email.includes('@') || !email.includes('.')) {
     return res.status(400).json({ error: 'Valid email required' });
   }
 
-  // Store in /tmp (Vercel serverless) — also log to console for persistence
-  console.log(`[SUBSCRIBER] ${new Date().toISOString()} ${email}`);
+  // Persist to Supabase if configured, otherwise fall back to console log
+  const supabaseUrl = process.env.SUPABASE_URL;
+  const supabaseKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
+
+  if (supabaseUrl && supabaseKey) {
+    try {
+      const resp = await fetch(`${supabaseUrl}/rest/v1/subscribers`, {
+        method: 'POST',
+        headers: {
+          'apikey': supabaseKey,
+          'Authorization': `Bearer ${supabaseKey}`,
+          'Content-Type': 'application/json',
+          'Prefer': 'resolution=ignore-duplicates'
+        },
+        body: JSON.stringify({ email, source })
+      });
+      if (!resp.ok) {
+        const err = await resp.text();
+        console.error(`[SUBSCRIBER] Supabase error: ${err}`);
+      }
+    } catch (e) {
+      console.error(`[SUBSCRIBER] Supabase failed: ${e.message}`);
+    }
+  }
+
+  // Always log to console as backup
+  console.log(`[SUBSCRIBER] ${new Date().toISOString()} ${email} (${source})`);
 
   // Return success page
   res.setHeader('Content-Type', 'text/html');

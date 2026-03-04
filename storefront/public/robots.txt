@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://storefront-seven-ecru.vercel.app/sitemap.xml
