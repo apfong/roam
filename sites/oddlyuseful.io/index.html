@@ -3,78 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Oddly Useful - Small tools that solve real problems</title>
-    <meta name="description" content="AI-powered studio building small, useful tools for businesses. Every product solves a specific, annoying problem.">
+    <title>Oddly Useful — Small tools, real problems</title>
+    <meta name="description" content="An AI-native studio shipping small, opinionated tools for founders and operators.">
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="header">
-        <div class="container">
-            <div class="logo">
-                <h1>Oddly Useful</h1>
-            </div>
-        </div>
-    </header>
+
+    <nav class="nav">
+        <a href="/" class="nav-mark">○ oddlyuseful</a>
+    </nav>
 
     <main>
-        <!-- Hero Section -->
         <section class="hero">
-            <div class="container">
-                <div class="hero-content">
-                    <h1 class="hero-title">Oddly Useful</h1>
-                    <p class="hero-subtitle">Small tools that solve real problems.<br>Built by AI, refined by humans.</p>
-                </div>
-            </div>
+            <div class="hero-eyebrow">AI-native studio</div>
+            <h1>We build small tools<br>that solve <em>specific</em>,<br>annoying problems.</h1>
+            <p class="hero-sub">No platforms. No ecosystems. Just things that work.</p>
+            <div class="hero-line"></div>
         </section>
 
-        <!-- About Section -->
-        <section class="about">
-            <div class="container">
-                <div class="about-content">
-                    <h2>About Us</h2>
-                    <p>We're an AI-powered studio that builds small, useful tools for businesses. Every product in our portfolio solves a specific, annoying problem — nothing more, nothing less.</p>
-                </div>
-            </div>
-        </section>
-
-        <!-- Products Section -->
         <section class="products">
-            <div class="container">
-                <h2>Our Products</h2>
-                <div class="products-grid">
-                    <div class="product-card">
-                        <div class="product-header">
-                            <h3>The Autonomous Agent Playbook</h3>
-                            <span class="price">$39</span>
-                        </div>
-                        <p class="product-description">
-                            Complete guide to building and deploying autonomous AI agents for business automation.
-                        </p>
-                        <button class="btn btn-primary" disabled>Available Soon</button>
-                    </div>
-                    
-                    <div class="product-card">
-                        <div class="product-header">
-                            <h3>DemandProof</h3>
-                            <span class="status">Coming Soon</span>
-                        </div>
-                        <p class="product-description">
-                            Validate your product ideas before you build them. Smart demand testing for smart founders.
-                        </p>
-                        <button class="btn btn-secondary" disabled>Notify Me</button>
-                    </div>
+            <div class="section-label">What we're building</div>
+            
+            <div class="product">
+                <div class="product-meta">
+                    <span class="tag tag-soon">Coming soon</span>
+                    <span class="product-price">$39</span>
                 </div>
+                <h2>The Autonomous Agent Playbook</h2>
+                <p>How to actually deploy AI agents that run your business while you sleep. Not theory — working configs, real architectures, hard-won lessons from running autonomous agents in production.</p>
+                <a href="#" class="link-arrow">Get notified ↗</a>
+            </div>
+
+            <div class="divider"></div>
+
+            <div class="product">
+                <div class="product-meta">
+                    <span class="tag tag-wip">In development</span>
+                </div>
+                <h2>DemandProof</h2>
+                <p>Stop guessing if people want your thing. DemandProof scrapes real signals — Reddit threads, HN comments, Twitter rants — and tells you if the pain is real before you write a line of code.</p>
+                <a href="#" class="link-arrow">Learn more ↗</a>
+            </div>
+        </section>
+
+        <section class="about">
+            <div class="section-label">About</div>
+            <div class="about-text">
+                <p>Oddly Useful is a one-entity studio — part human, part AI, fully autonomous. We ship tools for founders and operators who are tired of bloated software that does everything badly.</p>
+                <p>Every product starts from a real frustration. If it doesn't save you time or money in the first 10 minutes, we failed.</p>
             </div>
         </section>
     </main>
 
     <footer class="footer">
-        <div class="container">
-            <p>&copy; 2026 Oddly Useful &middot; <a href="/">oddlyuseful.io</a></p>
+        <div class="footer-inner">
+            <span>© 2026 Oddly Useful</span>
+            <span class="footer-dot">·</span>
+            <span class="footer-subtle">Built by humans & agents in NYC</span>
         </div>
     </footer>
+
 </body>
 </html>
