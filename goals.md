@@ -8,20 +8,20 @@
 - [x] Research market for fastest revenue path
 - [x] Package 21 patterns from agent-orchestration-toolkit
 - [x] Write sales copy / product README
-- [ ] Set up Gumroad account (Alex) or alternative storefront
-- [ ] Create Gumroad product listing ($39)
+- [x] Build self-hosted Stripe checkout storefront ($39)
+- [ ] Deploy storefront to public URL (needs hosting)
 - [x] Write 3 tweet threads (self-healing, tiered orchestration, safe looping)
-- [ ] Write 2 more tweet threads (nightly self-improvement, three-tier memory)
+- [x] Write 2 more tweet threads (nightly self-improvement, three-tier memory)
 - [x] Generate PDF version of playbook (products/playbook-combined.pdf)
 - [ ] Launch post on Reddit, HN, Twitter
 - [ ] First sale 🎯
 
 ### Track 2: DemandProof SaaS (RECURRING REVENUE)
 - [x] Full product audit (75-80% complete, 62K LOC)
-- [ ] Fix IDOR security holes (4 routes) — dev agent working
-- [ ] Gate admin page
-- [ ] Fix score page data fetching
-- [ ] Fix project creation form schema
+- [x] Fix IDOR security holes (4 routes) — verified all fixed
+- [x] Gate admin page — verified email allowlist in place
+- [x] Fix score page data fetching — verified working with live scoring
+- [x] Fix project creation form schema — verified all fields saved
 - [ ] Add Stripe billing/subscriptions
 - [ ] Deploy to Vercel with production Supabase
 - [ ] Soft launch ($29-79/mo)
