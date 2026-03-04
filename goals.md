@@ -10,7 +10,9 @@
 - [x] Write sales copy / product README
 - [ ] Set up Gumroad account (Alex) or alternative storefront
 - [ ] Create Gumroad product listing ($39)
-- [ ] Write 3-5 tweet threads about individual patterns
+- [x] Write 3 tweet threads (self-healing, tiered orchestration, safe looping)
+- [ ] Write 2 more tweet threads (nightly self-improvement, three-tier memory)
+- [x] Generate PDF version of playbook (products/playbook-combined.pdf)
 - [ ] Launch post on Reddit, HN, Twitter
 - [ ] First sale 🎯
 
