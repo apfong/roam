@@ -29,8 +29,14 @@
 - Alex reacts ✅ = approved, ❌ = revise
 - Never take irreversible action without approval in #decisions
 
+## Company
+- **Name:** Oddly Useful
+- **Domain:** oddlyuseful.io
+- **Structure:** Sole proprietor (DBA pending)
+- **Vision:** Umbrella brand for small, useful SMB tools
+
 ## Revenue Stack
-- **Payments:** Stripe (test mode)
+- **Payments:** Stripe (test mode — activation pending)
   - Secret key: `~/.config/stripe/secret_key`
   - Publishable key: `~/.config/stripe/publishable_key`
   - From clm-lite project (account: 51SuQw4F4PxuoL4k8)

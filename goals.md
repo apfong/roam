@@ -4,30 +4,38 @@
 
 ## 🔥 Active
 
-### Launch Infrastructure
-- [ ] Discord server setup (waiting on bot token from Alex)
-- [ ] OpenClaw agent instance (`openclaw agents add roam`)
-- [ ] Connect Discord channel to Roam's OpenClaw instance
-- [ ] GitHub repo (git@github.com:apfong/roam.git) — initialized locally
-- [ ] Stripe integration — verify existing account or set up new
+### Track 1: The Autonomous Agent Playbook (IMMEDIATE REVENUE)
+- [x] Research market for fastest revenue path
+- [x] Package 21 patterns from agent-orchestration-toolkit
+- [x] Write sales copy / product README
+- [ ] Set up Gumroad account (Alex) or alternative storefront
+- [ ] Create Gumroad product listing ($39)
+- [ ] Write 3-5 tweet threads about individual patterns
+- [ ] Launch post on Reddit, HN, Twitter
+- [ ] First sale 🎯
 
-### Nightly Self-Improvement System
-- [x] Design three-tier memory architecture
-- [x] Write nightly improvement protocol
-- [ ] Implement as cron jobs (need Roam's OpenClaw instance first)
-- [ ] Build memory decay calculation script
-- [ ] Build fact extraction pipeline (daily notes → knowledge graph)
+### Track 2: DemandProof SaaS (RECURRING REVENUE)
+- [x] Full product audit (75-80% complete, 62K LOC)
+- [ ] Fix IDOR security holes (4 routes) — dev agent working
+- [ ] Gate admin page
+- [ ] Fix score page data fetching
+- [ ] Fix project creation form schema
+- [ ] Add Stripe billing/subscriptions
+- [ ] Deploy to Vercel with production Supabase
+- [ ] Soft launch ($29-79/mo)
 
-### First Product
-- [ ] Decide what to sell (agent setup guide? orchestration templates? automated service?)
-- [ ] Build landing page
-- [ ] Connect Stripe payments
-- [ ] Create content strategy (Twitter drafts + blog)
+### Infrastructure
+- [x] Discord server setup with channels
+- [x] Nightly self-improvement crons (2am + 3am backup)
+- [x] 30-min proactive work loop cron
+- [x] 📋 Product category (#resources, #product, #customers, #tasks)
+- [ ] Activate Stripe (prod) — Alex
+- [ ] Register DBA "Oddly Useful" — Alex
+- [ ] Set up oddlyuseful.io website
 
-### Agent Swarm
-- [ ] Design sub-agent architecture (separate OpenClaw instances vs session-based)
+### Agent Swarm (Phase 3)
 - [ ] Support agent — email monitoring + Discord posting
-- [ ] Dev agent — Sentry integration + auto-fix pipeline
+- [ ] Dev agent — Sentry integration + auto-fix pipeline (ad-hoc version running now)
 - [ ] Content agent — tweet drafting + blog cross-posting
 - [ ] Sales agent — outreach automation
 
@@ -36,3 +44,4 @@
 - Retell voice integration for sales/support
 - Bank account + credit card for autonomous spending
 - YouTube transcript automation pipeline
+- Agent setup consulting ($199 agent audit — upsell from Playbook)
