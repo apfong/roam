@@ -7,11 +7,33 @@
 - **Shared toolkit:** ~/agent-orchestration-toolkit
 
 ## Discord Command Center
-- Server: TBD (waiting on bot token)
-- Channels: #general, #daily-report, #support, #dev-log, #bugs, #twitter-drafts, #blog, #sales, #finances
+- **Server (Guild) ID:** 1478778032465510502
+- **Bot:** @Roam (App ID: 1478778334824501339)
+
+### Channel IDs
+| Channel | ID | Category |
+|---------|-----|----------|
+| #general | 1478778034243768353 | Text Channels |
+| #daily-report | 1478784648745189468 | 🧭 Operations |
+| #support | 1478784650275983612 | 🧭 Operations |
+| #decisions | 1478784652075335790 | 🧭 Operations |
+| #sales | 1478784695515873300 | 💰 Revenue |
+| #finances | 1478784697097257033 | 💰 Revenue |
+| #dev-log | 1478784698288308256 | 🛠 Development |
+| #bugs | 1478784699047350313 | 🛠 Development |
+| #twitter-drafts | 1478784700192526357 | 📢 Content |
+| #blog | 1478784701878632632 | 📢 Content |
+
+### Approval Workflow
+- Post decisions/drafts to appropriate channel
+- Alex reacts ✅ = approved, ❌ = revise
+- Never take irreversible action without approval in #decisions
 
 ## Revenue Stack
-- **Payments:** Stripe (verify account with Alex)
+- **Payments:** Stripe (test mode)
+  - Secret key: `~/.config/stripe/secret_key`
+  - Publishable key: `~/.config/stripe/publishable_key`
+  - From clm-lite project (account: 51SuQw4F4PxuoL4k8)
 - **Products:** DemandProof integration (~/demandproof if exists)
 - **Storefront:** Own site + ClawMart (later)
 
