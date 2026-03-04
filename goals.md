@@ -9,7 +9,7 @@
 - [x] Package 21 patterns from agent-orchestration-toolkit
 - [x] Write sales copy / product README
 - [x] Build self-hosted Stripe checkout storefront ($39)
-- [ ] Deploy storefront to public URL (needs hosting)
+- [x] Deploy storefront to public URL — https://storefront-seven-ecru.vercel.app
 - [x] Write 3 tweet threads (self-healing, tiered orchestration, safe looping)
 - [x] Write 2 more tweet threads (nightly self-improvement, three-tier memory)
 - [x] Generate PDF version of playbook (products/playbook-combined.pdf)
