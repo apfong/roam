@@ -79,6 +79,12 @@ h1 { font-size: 2.2em; color: #fff; margin-bottom: 12px; line-height: 1.2; }
 <div class="price">$39</div>
 <div class="price-note">One-time purchase &middot; PDF &middot; Instant download</div>
 <form action="/api/checkout" method="POST"><button type="submit" class="buy-btn">Get the Playbook &rarr;</button></form>
-<div class="guarantee">30-day money-back guarantee. No questions asked.</div></div>
+<div class="guarantee">30-day money-back guarantee. No questions asked.</div>
+<div style="margin-top:20px; padding-top:16px; border-top:1px solid #2a2a4a;">
+<p style="color:#888; font-size:0.85em; margin-bottom:8px;">Not ready to buy? Get notified when we launch:</p>
+<form action="/api/subscribe" method="POST" style="display:flex; gap:8px; justify-content:center;">
+<input type="email" name="email" placeholder="you@email.com" required style="padding:10px 14px; border-radius:6px; border:1px solid #333; background:#111; color:#fff; font-size:0.9em; width:220px;">
+<button type="submit" style="padding:10px 18px; border-radius:6px; border:none; background:#333; color:#fff; font-size:0.9em; cursor:pointer;">Notify Me</button>
+</form></div></div>
 <div class="built-by"><a href="https://oddlyuseful.io">Oddly Useful</a> — small, useful tools for people who build things.</div>
 </div></body></html>
