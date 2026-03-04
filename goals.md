@@ -33,10 +33,14 @@
 - [x] Nightly self-improvement crons (2am + 3am backup)
 - [x] 30-min proactive work loop cron
 - [x] 📋 Product category (#resources, #product, #customers, #tasks)
+- [x] SEO foundations (robots.txt, sitemaps on both sites)
+- [x] Subscriber persistence (Supabase-backed, migration ready)
+- [ ] Run Supabase subscriber migration (needs `SUPABASE_URL` + `SUPABASE_SERVICE_ROLE_KEY` in Vercel env)
 - [ ] Activate Stripe (prod) — Alex
 - [ ] Register DBA "Oddly Useful" — Alex
 - [x] Set up oddlyuseful.io website (deployed to Vercel, needs DNS)
 - [ ] Point oddlyuseful.io DNS to Vercel
+- [ ] Fix Discord messaging from cron sessions (bot token routing)
 
 ### Agent Swarm (Phase 3)
 - [ ] Support agent — email monitoring + Discord posting
