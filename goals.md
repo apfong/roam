@@ -23,6 +23,7 @@
 - [x] Fix score page data fetching — verified working with live scoring
 - [x] Fix project creation form schema — verified all fields saved
 - [x] Add Stripe billing/subscriptions (DB migration, plans, usage tracking, billing UI, guards)
+- [x] Fix Next.js 16 async API migration (headers() → await headers())
 - [ ] Run Supabase migration + create Stripe products/prices
 - [ ] Deploy to Vercel with production Supabase
 - [ ] Soft launch ($29-79/mo)
