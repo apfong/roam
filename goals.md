@@ -22,7 +22,8 @@
 - [x] Gate admin page — verified email allowlist in place
 - [x] Fix score page data fetching — verified working with live scoring
 - [x] Fix project creation form schema — verified all fields saved
-- [ ] Add Stripe billing/subscriptions
+- [x] Add Stripe billing/subscriptions (DB migration, plans, usage tracking, billing UI, guards)
+- [ ] Run Supabase migration + create Stripe products/prices
 - [ ] Deploy to Vercel with production Supabase
 - [ ] Soft launch ($29-79/mo)
 
@@ -33,7 +34,8 @@
 - [x] 📋 Product category (#resources, #product, #customers, #tasks)
 - [ ] Activate Stripe (prod) — Alex
 - [ ] Register DBA "Oddly Useful" — Alex
-- [ ] Set up oddlyuseful.io website
+- [x] Set up oddlyuseful.io website (deployed to Vercel, needs DNS)
+- [ ] Point oddlyuseful.io DNS to Vercel
 
 ### Agent Swarm (Phase 3)
 - [ ] Support agent — email monitoring + Discord posting
