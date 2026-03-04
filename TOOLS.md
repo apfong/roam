@@ -23,6 +23,13 @@
 | #bugs | 1478784699047350313 | 🛠 Development |
 | #twitter-drafts | 1478784700192526357 | 📢 Content |
 | #blog | 1478784701878632632 | 📢 Content |
+| #resources | 1478787395485827203 | 📋 Product |
+| #product | 1478787396387606702 | 📋 Product |
+| #customers | 1478787397541036052 | 📋 Product |
+| #tasks | 1478789518713819340 | 📋 Product |
+| #dp-iteration | 1478792464025391254 | 🔬 DemandProof |
+| #dp-validation-runs | 1478792464642080810 | 🔬 DemandProof |
+| #dp-bugs | 1478792465757507595 | 🔬 DemandProof |
 
 ### Approval Workflow
 - Post decisions/drafts to appropriate channel
