@@ -1,0 +1,12 @@
+{
+  "id": "validation-reports",
+  "type": "project",
+  "title": "Idea Validation Reports",
+  "content": "Pay-after-delivery model ($49 basic / $99 comprehensive). Landing page at /validate.html. Order form with Supabase persistence. Sample report generated and linked. 48-hour delivery. Does NOT require Stripe — can accept orders now.",
+  "tags": ["revenue", "product", "no-stripe-needed"],
+  "created": "2026-03-04T00:00:00Z",
+  "lastAccessed": "2026-03-05T00:00:00Z",
+  "accessCount": 5,
+  "decayWeight": 1.0,
+  "connections": ["oddlyuseful-site"]
+}

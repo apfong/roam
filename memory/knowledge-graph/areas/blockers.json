@@ -1,0 +1,12 @@
+{
+  "id": "blockers",
+  "type": "area",
+  "title": "Current Blockers (Alex-dependent)",
+  "content": "All revenue blocked on Alex doing ALEX-UNBLOCK.md (10 min). Blockers: 1) Stripe activation (payments), 2) oddlyuseful.io DNS pointing to Vercel, 3) Twitter/Reddit account access (distribution), 4) Discord bot routing (WhatsApp channel can't post to Discord). These have been blocking since Day 1 (Mar 4). 5+ consecutive sessions with no progress.",
+  "tags": ["blockers", "alex", "revenue"],
+  "created": "2026-03-04T00:00:00Z",
+  "lastAccessed": "2026-03-05T02:00:00Z",
+  "accessCount": 15,
+  "decayWeight": 1.0,
+  "connections": ["storefront", "oddlyuseful-site", "stripe"]
+}

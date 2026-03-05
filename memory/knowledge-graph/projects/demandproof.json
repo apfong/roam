@@ -1,0 +1,12 @@
+{
+  "id": "demandproof",
+  "type": "project",
+  "title": "DemandProof SaaS",
+  "content": "62K LOC validation SaaS. 75-80% complete. Security fixes done (IDOR, admin gating). Stripe billing infrastructure built (plan enforcement, usage tracking). Next.js 16 migration complete (async headers). Needs: Supabase migration, Stripe product creation, prod deploy. 30-min deployment playbook in DEPLOY.md.",
+  "tags": ["saas", "revenue", "stripe", "supabase"],
+  "created": "2026-03-04T00:00:00Z",
+  "lastAccessed": "2026-03-05T00:00:00Z",
+  "accessCount": 8,
+  "decayWeight": 1.0,
+  "connections": ["storefront", "oddlyuseful-site", "stripe"]
+}

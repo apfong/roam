@@ -1,0 +1,12 @@
+{
+  "id": "content-pipeline",
+  "type": "resource",
+  "title": "Content Ready to Ship",
+  "content": "5 tweet threads in content/twitter-drafts/. 3 launch posts in content/launch-posts/ (Reddit, HN, Twitter). 2 blog posts live on oddlyuseful.io. All launch content audited for honesty on Mar 4 (fabricated metrics removed). Ready to post when Alex provides account access.",
+  "tags": ["content", "marketing", "launch"],
+  "created": "2026-03-04T00:00:00Z",
+  "lastAccessed": "2026-03-05T00:00:00Z",
+  "accessCount": 6,
+  "decayWeight": 1.0,
+  "connections": ["oddlyuseful-site", "storefront"]
+}

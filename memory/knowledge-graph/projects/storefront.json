@@ -1,0 +1,12 @@
+{
+  "id": "storefront",
+  "type": "project",
+  "title": "Oddly Useful Storefront",
+  "content": "Vercel-hosted storefront at storefront-seven-ecru.vercel.app. Sells The Autonomous Agent Playbook ($39). Stripe checkout (test mode), email capture for subscribers, FAQ section, OG tags, Plausible analytics placeholder. HMAC-signed download tokens. Blocked on Stripe activation for real payments.",
+  "tags": ["revenue", "vercel", "stripe", "playbook"],
+  "created": "2026-03-04T00:00:00Z",
+  "lastAccessed": "2026-03-05T00:00:00Z",
+  "accessCount": 12,
+  "decayWeight": 1.0,
+  "connections": ["oddlyuseful-site", "playbook", "stripe"]
+}
