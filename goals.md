@@ -16,6 +16,17 @@
 - [ ] Launch post on Reddit, HN, Twitter
 - [ ] First sale 🎯
 
+### Track 1.5: Idea Validation Reports (IMMEDIATE REVENUE — NO STRIPE NEEDED)
+- [x] Research & validate market (9/10 score — strong green light)
+- [x] Build landing page with order form (oddlyuseful.io/validate.html)
+- [x] Build API endpoint for order submissions
+- [x] Create professional report template (HTML, print-ready)
+- [x] Create agent prompt pipeline for report generation
+- [x] Deploy to Vercel — LIVE
+- [ ] Generate sample report (dogfood with our own idea)
+- [ ] Post to r/startups, r/SaaS, r/Entrepreneur
+- [ ] First paying customer 🎯
+
 ### Track 2: DemandProof SaaS (RECURRING REVENUE)
 - [x] Full product audit (75-80% complete, 62K LOC)
 - [x] Fix IDOR security holes (4 routes) — verified all fixed
