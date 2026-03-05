@@ -4,19 +4,14 @@
 
 ## 🔥 Active
 
-### Track 1: Done-for-You Validation Reports (PRIMARY — IMMEDIATE REVENUE)
-- [x] Research & validate market (9/10 score — strong green light)
-- [x] Adversarial review completed — identified risks (free competitors, TAM ceiling)
-- [x] Build landing page (oddlyuseful.io/validate)
-- [x] Deploy to Vercel — LIVE at oddlyuseful.vercel.app/validate
-- [ ] Choose product name (naming research done, top 5 in #product)
-- [ ] Register product domain
-- [ ] Build intake form (simple: idea description, target market, email)
-- [ ] Build report generation pipeline (automated via agent)
-- [x] Create sample report (dogfood with our own idea) — live at /sample-report.html
-- [ ] Set up Stripe checkout ($49 basic, $99 comprehensive)
-- [ ] Post to r/startups, r/SaaS, r/Entrepreneur
-- [ ] First paying customer 🎯
+### Track 1: Product Discovery (ACTIVE)
+- [x] Round 1: 15 ideas generated, scored
+- [x] Round 2: Agent-in-a-Box validated but killed (Felix proved it)
+- [x] Round 3: DFY Validation Reports — killed by adversarial review
+- [x] Round 4: Multi-specialist ideation + adversarial stress-test
+- [x] Select final products (Playbook, Validation Reports, Consulting, DemandProof)
+- [x] Build MVPs — all 4 products live on Vercel
+- [ ] First paying customer 🎯 (BLOCKED: Stripe activation + launch posts)
 
 ### Track 2: The Autonomous Agent Playbook (SIDE REVENUE)
 - [x] Package 21 patterns from agent-orchestration-toolkit
