@@ -1,0 +1,10 @@
+export { fixImageAlt } from './image-alt';
+export { fixLabel } from './label';
+export { fixColorContrast } from './color-contrast';
+export { fixLinkName } from './link-name';
+export { fixButtonName } from './button-name';
+export { fixHtmlHasLang } from './html-has-lang';
+export { fixDocumentTitle } from './document-title';
+export { fixHeadingOrder } from './heading-order';
+export { fixLandmarkOneMain } from './landmark-one-main';
+export { fixMetaViewport } from './meta-viewport';
