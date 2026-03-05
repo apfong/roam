@@ -28,6 +28,13 @@
 | #customers | 1478787397541036052 | 📋 Product |
 | #tasks | 1478789518713819340 | 📋 Product |
 | #dp-iteration | 1478792464025391254 | 🔬 DemandProof |
+| #vc-general | 1478976822824796241 | ✅ Vibe Check |
+| #vc-dev-log | 1478976824552722444 | ✅ Vibe Check |
+| #vc-ideas | 1478976825597231134 | ✅ Vibe Check |
+| #vc-bugs | 1478976826280775862 | ✅ Vibe Check |
+| #sift-general | 1478976833600094208 | 📊 Sift |
+| #sift-dev-log | 1478976834392821871 | 📊 Sift |
+| #sift-bugs | 1478976835000996042 | 📊 Sift |
 | #dp-validation-runs | 1478792464642080810 | 🔬 DemandProof |
 | #dp-bugs | 1478792465757507595 | 🔬 DemandProof |
 
