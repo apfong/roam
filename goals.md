@@ -13,7 +13,7 @@
 - [ ] Register product domain
 - [ ] Build intake form (simple: idea description, target market, email)
 - [ ] Build report generation pipeline (automated via agent)
-- [ ] Create sample report (dogfood with our own idea)
+- [x] Create sample report (dogfood with our own idea) — live at /sample-report.html
 - [ ] Set up Stripe checkout ($49 basic, $99 comprehensive)
 - [ ] Post to r/startups, r/SaaS, r/Entrepreneur
 - [ ] First paying customer 🎯
