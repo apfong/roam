@@ -4,64 +4,81 @@
 
 ## 🔥 Active
 
-### Track 1: The Autonomous Agent Playbook (IMMEDIATE REVENUE)
-- [x] Research market for fastest revenue path
-- [x] Package 21 patterns from agent-orchestration-toolkit
-- [x] Write sales copy / product README
-- [x] Build self-hosted Stripe checkout storefront ($39)
-- [x] Deploy storefront to public URL — https://storefront-seven-ecru.vercel.app
-- [x] Write 3 tweet threads (self-healing, tiered orchestration, safe looping)
-- [x] Write 2 more tweet threads (nightly self-improvement, three-tier memory)
-- [x] Generate PDF version of playbook (products/playbook-combined.pdf)
-- [ ] Launch post on Reddit, HN, Twitter
-- [ ] First sale 🎯
-
-### Track 1.5: Idea Validation Reports (IMMEDIATE REVENUE — NO STRIPE NEEDED)
+### Track 1: Done-for-You Validation Reports (PRIMARY — IMMEDIATE REVENUE)
 - [x] Research & validate market (9/10 score — strong green light)
-- [x] Build landing page with order form (oddlyuseful.io/validate.html)
-- [x] Build API endpoint for order submissions
-- [x] Create professional report template (HTML, print-ready)
-- [x] Create agent prompt pipeline for report generation
-- [x] Deploy to Vercel — LIVE
-- [ ] Generate sample report (dogfood with our own idea)
+- [x] Adversarial review completed — identified risks (free competitors, TAM ceiling)
+- [x] Build landing page (oddlyuseful.io/validate)
+- [x] Deploy to Vercel — LIVE at oddlyuseful.vercel.app/validate
+- [ ] Choose product name (naming research done, top 5 in #product)
+- [ ] Register product domain
+- [ ] Build intake form (simple: idea description, target market, email)
+- [ ] Build report generation pipeline (automated via agent)
+- [ ] Create sample report (dogfood with our own idea)
+- [ ] Set up Stripe checkout ($49 basic, $99 comprehensive)
 - [ ] Post to r/startups, r/SaaS, r/Entrepreneur
 - [ ] First paying customer 🎯
 
-### Track 2: DemandProof SaaS (RECURRING REVENUE)
+### Track 2: The Autonomous Agent Playbook (SIDE REVENUE)
+- [x] Package 21 patterns from agent-orchestration-toolkit
+- [x] Write sales copy
+- [x] Build landing page (oddlyuseful.io/playbook)
+- [x] Deploy to Vercel — LIVE
+- [ ] Set up Stripe checkout ($39)
+- [ ] Launch post on Reddit, HN, Twitter
+- [ ] First sale 🎯
+
+### Track 3: DemandProof SaaS (RECURRING REVENUE — LATER)
 - [x] Full product audit (75-80% complete, 62K LOC)
-- [x] Fix IDOR security holes (4 routes) — verified all fixed
-- [x] Gate admin page — verified email allowlist in place
-- [x] Fix score page data fetching — verified working with live scoring
-- [x] Fix project creation form schema — verified all fields saved
-- [x] Add Stripe billing/subscriptions (DB migration, plans, usage tracking, billing UI, guards)
-- [x] Fix Next.js 16 async API migration (headers() → await headers())
-- [ ] Run Supabase migration + create Stripe products/prices
-- [ ] Deploy to Vercel with production Supabase
+- [x] Security fixes (IDOR, admin gating)
+- [x] Stripe billing infrastructure added
+- [ ] Run Supabase migration + Stripe products
+- [ ] Deploy to prod
 - [ ] Soft launch ($29-79/mo)
 
-### Infrastructure
-- [x] Discord server setup with channels
-- [x] Nightly self-improvement crons (2am + 3am backup)
-- [x] 30-min proactive work loop cron
-- [x] 📋 Product category (#resources, #product, #customers, #tasks)
-- [x] SEO foundations (robots.txt, sitemaps on both sites)
-- [x] Subscriber persistence (Supabase-backed, migration ready)
-- [ ] Run Supabase subscriber migration (needs `SUPABASE_URL` + `SUPABASE_SERVICE_ROLE_KEY` in Vercel env)
-- [ ] Activate Stripe (prod) — Alex
-- [ ] Register DBA "Oddly Useful" — Alex
-- [x] Set up oddlyuseful.io website (deployed to Vercel, needs DNS)
-- [ ] Point oddlyuseful.io DNS to Vercel
-- [ ] Fix Discord messaging from cron sessions (bot token routing)
+### Content & Distribution
+- [x] Content pipeline infrastructure built (~/roam/content/)
+- [x] Content calendar created in Notion
+- [x] 3 Reddit posts + 2 X threads drafted
+- [x] Drafts posted to #twitter-drafts for approval
+- [ ] Get content approved (✅/❌ in #twitter-drafts or Notion)
+- [ ] Create X account (@oddlyuseful or product-specific)
+- [ ] Create Reddit account for posting
+- [ ] First post published
+- [ ] Track engagement metrics
 
-### Agent Swarm (Phase 3)
-- [ ] Support agent — email monitoring + Discord posting
-- [ ] Dev agent — Sentry integration + auto-fix pipeline (ad-hoc version running now)
-- [ ] Content agent — tweet drafting + blog cross-posting
-- [ ] Sales agent — outreach automation
+### Infrastructure
+- [x] oddlyuseful.io deployed to Vercel (oddlyuseful.vercel.app)
+- [x] Discord server with full channel structure
+- [x] Nightly self-improvement crons
+- [x] Agent swarm registered (roam-dev, roam-content, roam-research)
+- [x] Notion workspace connected (Content Calendar DB created)
+- [ ] Buy oddlyuseful.io domain → point DNS to Vercel — ALEX
+- [ ] Buy product domain (once name chosen) — ALEX
+- [ ] Activate Stripe (production mode) — ALEX
+- [ ] Configure sessions_spawn allowlist for sub-agents
+- [ ] Set up Notion as central task tracker (expand beyond content calendar)
+
+### Research Completed ✅
+- [x] Voice outreach pipeline (Retell/Vapi/Bland, TCPA compliance, costs)
+- [x] 15 product ideas generated and scored
+- [x] Agent-in-a-Box validation (8.2/10 but Felix proved it's tough)
+- [x] DFY Validation Reports validation (9/10)
+- [x] Adversarial review of DFY reports
+- [x] x402/stablecoin payments research
+- [x] YC RFS 2026 analysis
+- [x] Product naming research (top 5 candidates)
 
 ## 📋 Backlog
-- ClawMart listings (after our own configs are battle-tested)
-- Retell voice integration for sales/support
-- Bank account + credit card for autonomous spending
-- YouTube transcript automation pipeline
-- Agent setup consulting ($199 agent audit — upsell from Playbook)
+- Explore x402/stablecoin payment integration for micro-pricing
+- Platform play: modular workflow engine (DemandProof as first template)
+- Voice outreach for warm leads (Retell integration)
+- ClawMart skill listings
+- Agent setup consulting ($199 agent audit)
+- Competitive intelligence product (automated weekly reports)
+- Notion expansion: product roadmap, CRM, finances tracking
+
+## 🚫 Killed / Deprioritized
+- Agent-in-a-Box (Felix proved configs don't sell well)
+- Agent Budget Guardian (feature, not product)
+- Executive Agent Adoption Concierge (service, doesn't scale)
+- Cold voice outreach (TCPA compliance too risky)
