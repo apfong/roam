@@ -1,3 +1,5 @@
+# ⚠️ NEEDS REWRITE — Contains fabricated metrics. Do not post until updated with real data.
+
 # How I use DemandProof to validate startup ideas with real data instead of AI opinions
 
 **Subreddit**: r/AI_Agents  

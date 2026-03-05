@@ -50,6 +50,7 @@ body {
 .hero {
     padding: 10rem 3rem 6rem;
     max-width: 860px;
+    margin: 0 auto;
 }
 
 .hero-eyebrow {
@@ -105,6 +106,7 @@ body {
 .products {
     padding: 4rem 3rem 5rem;
     max-width: 720px;
+    margin: 0 auto;
 }
 
 .product {
@@ -191,6 +193,7 @@ body {
 .about {
     padding: 4rem 3rem 6rem;
     max-width: 620px;
+    margin: 0 auto;
 }
 
 .about-text p {
@@ -214,10 +217,13 @@ body {
 .footer-inner {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 0.6rem;
     font-size: 0.75rem;
     color: var(--text-muted);
     font-family: var(--mono);
+    max-width: 860px;
+    margin: 0 auto;
 }
 
 .footer-dot { opacity: 0.4; }
@@ -258,6 +264,8 @@ body > * { position: relative; z-index: 1; }
 .product-hero {
     padding: 8rem 3rem 4rem;
     text-align: left;
+    max-width: 860px;
+    margin: 0 auto;
 }
 
 .product-hero h1 {
@@ -322,6 +330,7 @@ body > * { position: relative; z-index: 1; }
 .product-details {
     padding: 4rem 3rem;
     max-width: 900px;
+    margin: 0 auto;
 }
 
 .feature-grid {
@@ -437,6 +446,7 @@ body > * { position: relative; z-index: 1; }
 .problem-section, .solution-section {
     padding: 4rem 3rem;
     max-width: 720px;
+    margin: 0 auto;
 }
 
 .problem-text p {
@@ -522,6 +532,7 @@ body > * { position: relative; z-index: 1; }
 .pricing-section {
     padding: 4rem 3rem;
     max-width: 800px;
+    margin: 0 auto;
 }
 
 .pricing-grid {
@@ -664,6 +675,7 @@ body > * { position: relative; z-index: 1; }
 .faq-section {
     padding: 4rem 3rem 5rem;
     max-width: 800px;
+    margin: 0 auto;
 }
 
 .faq-grid {
