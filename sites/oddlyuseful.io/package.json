@@ -6,7 +6,11 @@
   "scripts": {
     "dev": "python3 -m http.server 8000",
     "build": "echo 'Static site - no build step needed'",
-    "start": "python3 -m http.server 8000"
+    "start": "python3 -m http.server 8000",
+    "deploy": "./scripts/deploy.sh",
+    "deploy:prod": "./scripts/deploy.sh --prod",
+    "preview": "vercel",
+    "lint": "echo 'HTML/CSS validation could be added here'"
   },
   "keywords": [
     "oddly-useful",

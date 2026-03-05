@@ -6,9 +6,23 @@ module.exports = async function handler(req, res) {
 
   let body = '';
   for await (const chunk of req) body += chunk;
-  const params = new URLSearchParams(body);
-  const email = (params.get('email') || '').trim().toLowerCase();
-  const source = (params.get('source') || 'storefront').trim();
+  
+  // Support both JSON and URL-encoded form data
+  let email, source;
+  const contentType = (req.headers['content-type'] || '').toLowerCase();
+  if (contentType.includes('application/json')) {
+    try {
+      const json = JSON.parse(body);
+      email = (json.email || '').trim().toLowerCase();
+      source = (json.source || 'storefront').trim();
+    } catch (e) {
+      return res.status(400).json({ error: 'Invalid JSON' });
+    }
+  } else {
+    const params = new URLSearchParams(body);
+    email = (params.get('email') || '').trim().toLowerCase();
+    source = (params.get('source') || 'storefront').trim();
+  }
 
   if (!email || !email.includes('@') || !email.includes('.')) {
     return res.status(400).json({ error: 'Valid email required' });
@@ -42,7 +56,12 @@ module.exports = async function handler(req, res) {
   // Always log to console as backup
   console.log(`[SUBSCRIBER] ${new Date().toISOString()} ${email} (${source})`);
 
-  // Return success page
+  // Return JSON for AJAX requests, HTML for form submissions
+  if (contentType.includes('application/json')) {
+    return res.status(200).json({ ok: true, email });
+  }
+
+  // Return success page for form submissions
   res.setHeader('Content-Type', 'text/html');
   res.status(200).send(`<!DOCTYPE html><html lang="en"><head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">

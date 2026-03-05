@@ -1,54 +1,107 @@
-# Oddly Useful Landing Page
+# oddlyuseful.io
 
-A clean, minimal landing page for oddlyuseful.io built with vanilla HTML, CSS, and a dark theme optimized for AI/dev audiences.
+Professional landing site for Oddly Useful - Small tools that solve real problems.
 
-## Features
+## 🚀 Quick Deploy
 
-- 📱 **Mobile Responsive** - Looks great on all devices
-- 🌙 **Dark Theme** - Easy on the eyes, fits the AI/dev aesthetic  
-- ⚡ **Zero Dependencies** - Pure HTML/CSS, no build step required
-- 🚀 **Deploy Ready** - Works with Vercel, Netlify, or any static host
-
-## Local Development
+Once you have a Vercel token:
 
 ```bash
-# Option 1: Python (recommended)
-python3 -m http.server 8000
-
-# Option 2: Node.js (if you have npm installed)
-npm run dev
-
-# Then open http://localhost:8000
+export VERCEL_TOKEN=your_token_here
+./scripts/deploy.sh --prod
 ```
 
-## Deployment
+## 🛠 Development
 
-### Vercel
-1. Connect your GitHub repo
-2. Set build command: (leave empty - static site)
-3. Set output directory: (leave empty - uses root)
-4. Deploy!
+```bash
+# Start local server
+npm run dev
+# Opens at http://localhost:8000
 
-### Netlify
-1. Drag and drop the folder to Netlify
-2. Or connect via Git with default settings
-3. Deploy!
+# Deploy to preview
+npm run preview
 
-### Manual
-Upload all files to any web server. No build step required.
+# Deploy to production  
+npm run deploy:prod
+```
 
-## Structure
+## 📁 Structure
 
-- `index.html` - Main page content
-- `styles.css` - All styling (CSS custom properties for theming)
-- `package.json` - Deployment metadata (no dependencies)
-- `README.md` - This file
+```
+├── index.html          # Main landing page
+├── playbook.html       # Agent Playbook sales page ($39)
+├── validate.html       # DemandProof Validation sales page ($49-99)
+├── styles.css          # All styles (dark theme, responsive)
+├── vercel.json         # Vercel deployment config
+├── scripts/
+│   └── deploy.sh       # One-command deployment script
+└── *.png.placeholder   # OG image placeholders (replace before launch)
+```
 
-## Content Sections
+## 📋 Pre-Launch Checklist
 
-1. **Hero** - Brand positioning and value prop
-2. **About** - Company description and mission
-3. **Products** - Current product offerings
-4. **Footer** - Copyright and branding
+### Required
+- [ ] Replace OG image placeholders with actual images (1200x630)
+- [ ] Set up Vercel project with custom domain
+- [ ] Configure Stripe checkout for Buy Now buttons
+- [ ] Test all pages on mobile/desktop
+- [ ] Set up analytics (Plausible/Google Analytics)
 
-Built by Roam (AI Web Dev Agent) for Oddly Useful.
+### Optional
+- [ ] Add proper favicon.ico (currently SVG only)
+- [ ] Set up form handling for email collection
+- [ ] Add loading states for Buy Now buttons
+- [ ] Implement proper error handling for payments
+
+## 🎨 Design System
+
+### Colors
+- Background: `#08080a`
+- Surface: `#0f0f12` 
+- Text: `#e8e8ed`
+- Text dim: `#7a7a85`
+- Accent: `#c4f042`
+- Border: `#1c1c22`
+
+### Fonts
+- Primary: Space Grotesk
+- Mono: Space Mono
+
+### Breakpoints
+- Mobile: 480px
+- Tablet: 768px
+- Desktop: 1024px+
+
+## 💰 Products
+
+### The Autonomous Agent Playbook - $39
+Sales page at `/playbook`
+- Target: Developers, indie hackers
+- Value: Working configs, real architectures
+- CTA: Direct purchase with Stripe
+
+### DemandProof Validation Reports - $49-99  
+Sales page at `/validate`
+- Target: Founders, idea validators
+- Value: 24hr data-backed validation reports
+- CTA: Two tiers (Quick $49, Deep $99)
+
+## 🔧 Technical Notes
+
+- Pure static HTML/CSS/JS (no build step)
+- Vercel handles routing via vercel.json
+- Buy buttons currently placeholder (need Stripe integration)
+- All external resources loaded from CDN
+- Grain texture via SVG data URL
+- Mobile-first responsive design
+
+## 🚨 Known Issues
+
+- ImageMagick not available for favicon.ico generation
+- OG images are placeholders
+- Buy Now buttons need Stripe integration
+- No email collection forms yet
+
+## 📞 Support
+
+Questions? Check the main Roam workspace or Discord #dev-log.
