@@ -25,17 +25,17 @@ const SEVERITY_COLORS: Record<string, { badge: string; bg: string }> = {
 };
 
 function CodeBlock({ code, variant }: { code: string; variant: 'before' | 'after' }) {
-  const bgColor = variant === 'before' ? 'bg-red-950/10' : 'bg-green-950/10';
-  const borderColor = variant === 'before' ? 'border-red-300' : 'border-green-300';
+  const codeBg = variant === 'before' ? 'bg-red-950' : 'bg-green-950';
+  const borderColor = variant === 'before' ? 'border-red-800' : 'border-green-800';
   const label = variant === 'before' ? 'Before' : 'After';
-  const labelColor = variant === 'before' ? 'text-red-600' : 'text-green-600';
+  const labelBg = variant === 'before' ? 'bg-red-900 text-red-200' : 'bg-green-900 text-green-200';
 
   return (
     <div className={cn('rounded border', borderColor)}>
-      <div className={cn('text-xs font-semibold px-3 py-1 border-b', labelColor, borderColor, bgColor)}>
+      <div className={cn('text-xs font-semibold px-3 py-1 border-b', labelBg, borderColor)}>
         {label}
       </div>
-      <pre className={cn('p-3 text-sm overflow-x-auto', bgColor)}>
+      <pre className={cn('p-3 text-sm text-slate-100 whitespace-pre-wrap break-all', codeBg)}>
         <code dangerouslySetInnerHTML={{ __html: escapeHtml(code) }} />
       </pre>
     </div>

@@ -3,7 +3,8 @@
  * Uses Puppeteer + axe-core to scan a URL for WCAG accessibility violations.
  */
 
-import puppeteer, { Browser } from "puppeteer";
+import chromium from "@sparticuz/chromium";
+import puppeteer, { Browser } from "puppeteer-core";
 import * as fs from "fs";
 import * as path from "path";
 
@@ -51,14 +52,25 @@ export async function scanUrl(url: string): Promise<ScanResult> {
   let browser: Browser | null = null;
 
   try {
+    const executablePath = process.env.VERCEL
+      ? await chromium.executablePath()
+      : (
+          process.env.CHROME_PATH ||
+          process.env.PUPPETEER_EXECUTABLE_PATH ||
+          "/home/frigidaire/.cache/puppeteer/chrome/linux-146.0.7680.31/chrome-linux64/chrome"
+        );
+
     browser = await puppeteer.launch({
       headless: true,
-      args: [
-        "--no-sandbox",
-        "--disable-setuid-sandbox",
-        "--disable-dev-shm-usage",
-        "--disable-gpu",
-      ],
+      executablePath,
+      args: process.env.VERCEL
+        ? chromium.args
+        : [
+            "--no-sandbox",
+            "--disable-setuid-sandbox",
+            "--disable-dev-shm-usage",
+            "--disable-gpu",
+          ],
     });
 
     const page = await browser.newPage();

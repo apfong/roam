@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { useParams } from 'next/navigation';
+import { useParams, useSearchParams } from 'next/navigation';
 import type { Permit } from '@/lib/types';
 
 interface ReportData {
@@ -76,31 +76,42 @@ function PermitCard({ permit }: { permit: Permit }) {
 
 export default function ReportPage() {
   const params = useParams();
+  const searchParams = useSearchParams();
   const [report, setReport] = useState<ReportData | null>(null);
   const [loading, setLoading] = useState(true);
   const [payLoading, setPayLoading] = useState(false);
 
   useEffect(() => {
-    async function fetchReport() {
+    // Read from localStorage (smoke test mode — no DB)
+    const stored = localStorage.getItem(`report:${params.id}`);
+    if (stored) {
       try {
-        const res = await fetch(`/api/report/${params.id}`);
-        if (res.ok) {
-          setReport(await res.json());
+        const data = JSON.parse(stored);
+        // Unlock if returning from Stripe checkout
+        if (searchParams.get('paid') === 'true') {
+          data.paid = true;
+          localStorage.setItem(`report:${params.id}`, JSON.stringify(data));
         }
-      } finally {
-        setLoading(false);
-      }
+        setReport(data);
+      } catch {}
     }
-    fetchReport();
-  }, [params.id]);
+    setLoading(false);
+  }, [params.id, searchParams]);
 
   async function handlePayment(tier: 'standard' | 'premium') {
+    if (!report) return;
     setPayLoading(true);
     try {
       const res = await fetch('/api/payment', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ reportId: params.id, tier }),
+        body: JSON.stringify({
+          reportId: params.id,
+          tier,
+          businessType: report.intake.businessType,
+          state: report.intake.state,
+          city: report.intake.city,
+        }),
       });
       const data = await res.json();
       if (data.url) {

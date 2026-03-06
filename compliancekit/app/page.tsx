@@ -40,6 +40,8 @@ export default function HomePage() {
       }
 
       const result = await res.json();
+      // Store full report data client-side (smoke test — no DB needed)
+      localStorage.setItem(`report:${result.id}`, JSON.stringify(result));
       window.location.href = `/report/${result.id}`;
     } catch (err) {
       setError(err instanceof Error ? err.message : 'Something went wrong');
