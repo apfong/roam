@@ -1,10 +1,11 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
   "/api/payment/route": "app/api/payment/route.js",
-  "/api/payment/webhook/route": "app/api/payment/webhook/route.js",
   "/api/report/[id]/route": "app/api/report/[id]/route.js",
+  "/api/payment/webhook/route": "app/api/payment/webhook/route.js",
   "/api/research/route": "app/api/research/route.js",
   "/dashboard/page": "app/dashboard/page.js",
   "/page": "app/page.js",
-  "/report/[id]/page": "app/report/[id]/page.js"
+  "/report/[id]/page": "app/report/[id]/page.js",
+  "/permits/[state]/[city]/page": "app/permits/[state]/[city]/page.js"
 }

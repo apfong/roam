@@ -12,7 +12,7 @@
       "static/chunks/fd9d1056-9f91b5e418130764.js",
       "static/chunks/117-7a2914d290987864.js",
       "static/chunks/main-app-f2945aba005b4d9b.js",
-      "static/css/240a34d659ebad8b.css",
+      "static/css/c7acefc4bae2e517.css",
       "static/chunks/app/layout-d8e3a94acaa4b368.js"
     ],
     "/dashboard/page": [
@@ -35,6 +35,14 @@
       "static/chunks/117-7a2914d290987864.js",
       "static/chunks/main-app-f2945aba005b4d9b.js",
       "static/chunks/app/report/[id]/page-ab1348c9337ba1d2.js"
+    ],
+    "/permits/[state]/[city]/page": [
+      "static/chunks/webpack-c8441f2d519541e3.js",
+      "static/chunks/fd9d1056-9f91b5e418130764.js",
+      "static/chunks/117-7a2914d290987864.js",
+      "static/chunks/main-app-f2945aba005b4d9b.js",
+      "static/chunks/972-214119a8952df610.js",
+      "static/chunks/app/permits/[state]/[city]/page-3046f815b960dd99.js"
     ]
   }
 }
