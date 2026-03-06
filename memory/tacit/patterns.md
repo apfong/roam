@@ -17,6 +17,8 @@
 - **Building more when blocked on distribution** — diminishing returns. After 4 products + content, further building without launch access is waste
 
 ## Operational Patterns
-- **Alex response time:** No response in ~14 hours (posted blockers afternoon of Mar 4, no action by Mar 5 2am). Plan for async with 24-48hr response cycles.
+- **Alex response time:** No response in ~14 hours (posted blockers afternoon of Mar 4, no action by Mar 5 2am). Plan for async with 24-48hr response cycles. Mar 5: 15+ hours with no response to Telegram ping.
 - **Work batching:** Most productive session was 11:30am-5pm Mar 4 — continuous building. Late night sessions (10pm+) correctly identified as low-ROI.
 - **Content before distribution is inventory, not marketing.** 5 tweet threads + 3 launch posts sitting idle = sunk cost. Don't create more content without a posting channel.
+- **Work loop must self-throttle when blocked.** Mar 5: 48+ no-op sessions from 10:30 AM–11:30 PM, each costing tokens for zero output. Work loop should detect "same blockers, no new inputs" and skip quickly — ideally the prompt should instruct immediate exit if nothing changed.
+- **Daily notes bloat kills context.** Mar 5 daily notes were 90% identical "No action taken" entries. Only log sessions where work was actually done. No-op sessions should be a single counter at end of day, not individual entries.

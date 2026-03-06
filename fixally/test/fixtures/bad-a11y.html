@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Missing <title> -->
+  <!-- Missing lang attribute on <html> -->
+</head>
+<body>
+  <!-- No main landmark -->
+
+  <!-- Image without alt text -->
+  <img src="hero.jpg">
+
+  <!-- Link with no text -->
+  <a href="/about"></a>
+
+  <!-- Button with no accessible name -->
+  <button></button>
+
+  <!-- Form input without label -->
+  <input type="text" name="email" placeholder="Email">
+
+  <!-- Color contrast issue (simulated) -->
+  <p style="color: #ccc; background-color: #fff;">Low contrast text</p>
+
+  <!-- Heading order skip: h1 -> h3 -->
+  <h1>Welcome</h1>
+  <h3>About Us</h3>
+
+  <!-- Meta viewport that blocks zoom -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+</body>
+</html>

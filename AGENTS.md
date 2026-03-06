@@ -77,6 +77,8 @@ Monthly target: Revenue > Costs (self-sustaining).
 - Never use light models for external-facing factual claims
 - Verify persistence before reporting success on writes
 - Track API credit levels, have fallback paths
+- **Work loop no-op spam (Mar 5):** 48+ sessions doing nothing, each burning tokens. Work loop now checks state.json for change detection before re-analyzing. Don't log identical no-op sessions individually in daily notes.
+- **Daily notes bloat:** Mar 5 daily notes were 90%+ identical "No action taken" entries. Only log sessions with actual work done.
 
 ## Self-Improvement
 - Nightly cron at 2am ET: review sessions, improve memory/skills/templates
