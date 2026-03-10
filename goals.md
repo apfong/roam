@@ -8,7 +8,8 @@
 - [x] Product concept validated with Alex (verification thesis)
 - [x] Technical spec complete — Univer renderer, diff overlay plugin, ~11 days dev
 - [x] Spec posted to #sift-dev-log (Mar 6)
-- [ ] Spike: prove Univer works in Next.js app 🎯
+- [x] Spike: prove Univer works in Next.js app ✅ (Mar 10)
+- [ ] Build core diff engine (formula-aware) 🎯
 - [ ] Build core diff engine (formula-aware)
 - [ ] Build diff overlay UI (green/red/yellow + hover)
 - [ ] Change sidebar with AI summaries
