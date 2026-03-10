@@ -1,7 +1,9 @@
 'use client';
 
+import { useMemo } from 'react';
 import type { SheetDiff, CellChange } from '@/lib/diff';
 import { DIFF_COLORS } from '@/lib/diff/colors';
+import { generateSummary } from '@/lib/diff/summarize';
 
 function colLetter(col: number): string {
   let s = '';
@@ -36,6 +38,7 @@ export default function ChangeSidebar({ diff }: ChangeSidebarProps) {
     );
   }
 
+  const aiSummary = useMemo(() => generateSummary(diff), [diff]);
   const { summary, changes } = diff;
 
   // Group by change type
@@ -81,6 +84,12 @@ export default function ChangeSidebar({ diff }: ChangeSidebarProps) {
             </span>
           )}
         </div>
+      </div>
+
+      {/* AI Summary */}
+      <div className="p-4 border-b bg-blue-50">
+        <h3 className="text-xs font-medium text-blue-700 uppercase tracking-wide mb-2">✨ Summary</h3>
+        <p className="text-sm text-gray-700 whitespace-pre-line">{aiSummary}</p>
       </div>
 
       {/* Change list */}
