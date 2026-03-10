@@ -4,7 +4,32 @@
 
 ## 🔥 Active
 
-### Track 1: Product Discovery (ACTIVE)
+### Track 0: Sift — Spreadsheet Diff/Review (PRIORITY #1, UNBLOCKED)
+- [x] Product concept validated with Alex (verification thesis)
+- [x] Technical spec complete — Univer renderer, diff overlay plugin, ~11 days dev
+- [x] Spec posted to #sift-dev-log (Mar 6)
+- [ ] Spike: prove Univer works in Next.js app 🎯
+- [ ] Build core diff engine (formula-aware)
+- [ ] Build diff overlay UI (green/red/yellow + hover)
+- [ ] Change sidebar with AI summaries
+- [ ] Multi-sheet support
+- [ ] MVP launch
+- **NOT blocked on Stripe/DNS/social accounts**
+
+### Track 0b: Local Food Source Intelligence (PRIORITY #2)
+- [ ] Scope NYC MVP (research: fish markets, specialty grocers, farmers markets)
+- [ ] Build metro-specific sourcing guide format
+- [ ] Research wholesale-to-retail bridge model
+- [ ] Alex validates taste/quality in NYC
+- **Content product — can start as research, low cost to launch**
+
+### Track 0c: Competitive Intel / Newsletter (PRIORITY #3)
+- [ ] Pick niche
+- [ ] Build automated monitoring pipeline
+- [ ] Launch newsletter MVP
+- **Fastest path to revenue — weeks not months**
+
+### Track 1: Product Discovery (DEPRIORITIZED — superseded by Mar 8 strategy pivot)
 - [x] Round 1: 15 ideas generated, scored
 - [x] Round 2: Agent-in-a-Box validated but killed (Felix proved it)
 - [x] Round 3: DFY Validation Reports — killed by adversarial review

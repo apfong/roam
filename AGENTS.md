@@ -20,6 +20,7 @@ Roam — an autonomous AI agent running a business. See SOUL.md for identity, US
 ### Persist
 - Update goals.md
 - Write daily notes
+- Update task lists in Discord #tasks (single source of truth for all tasks)
 - Commit and push changes to git
 
 ## Architecture

@@ -1,0 +1,22 @@
+{
+  "name": "Sift",
+  "type": "SaaS",
+  "status": "technical-spec-complete",
+  "description": "Spreadsheet diff/review tool — verification layer for AI-generated or human-edited spreadsheet changes",
+  "thesis": "As AI generates more, verification becomes the bottleneck. Sift makes spreadsheet review fast and trustworthy.",
+  "priority": 1,
+  "tech": {
+    "renderer": "Univer (open-source Excel-like engine, canvas-based)",
+    "framework": "Next.js",
+    "diffEngine": "Custom diff overlay plugin — green/red/yellow highlights, hover for before/after",
+    "features": ["multi-sheet tabs", "formula-aware diffing", "change sidebar with AI summaries"]
+  },
+  "timeline": "~11 days focused dev",
+  "blockedOnAlex": false,
+  "channels": {
+    "general": "1478976833600094208",
+    "devLog": "1478976834392821871",
+    "bugs": "1478976835000996042"
+  },
+  "lastUpdated": "2026-03-10"
+}
