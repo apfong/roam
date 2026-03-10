@@ -11,7 +11,8 @@
 - [x] Spike: prove Univer works in Next.js app ✅ (Mar 10)
 - [x] Build core diff engine (formula-aware) ✅ (Mar 10)
 - [x] Build diff overlay UI (green/red/yellow + change sidebar) ✅ (Mar 10)
-- [ ] Change sidebar with AI summaries
+- [x] Change sidebar with AI summaries ✅ (Mar 10)
+- [x] File upload flow (drag-and-drop XLSX/CSV/ODS, client-side) ✅ (Mar 10)
 - [ ] Multi-sheet support
 - [ ] MVP launch
 - **NOT blocked on Stripe/DNS/social accounts**

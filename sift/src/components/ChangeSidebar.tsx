@@ -27,9 +27,11 @@ function formatValue(v: unknown): string {
 
 interface ChangeSidebarProps {
   diff: SheetDiff | null;
+  sheetName?: string;
+  sheetStatus?: 'common' | 'added' | 'removed';
 }
 
-export default function ChangeSidebar({ diff }: ChangeSidebarProps) {
+export default function ChangeSidebar({ diff, sheetName, sheetStatus }: ChangeSidebarProps) {
   if (!diff) {
     return (
       <div className="p-4 text-gray-400 text-sm">
@@ -53,7 +55,12 @@ export default function ChangeSidebar({ diff }: ChangeSidebarProps) {
     <div className="flex flex-col h-full overflow-hidden">
       {/* Summary header */}
       <div className="p-4 border-b bg-gray-50">
-        <h2 className="font-semibold text-lg mb-2">Changes</h2>
+        <h2 className="font-semibold text-lg mb-2">
+          Changes
+          {sheetName && <span className="text-sm font-normal text-gray-500 ml-2">— {sheetName}</span>}
+          {sheetStatus === 'added' && <span className="ml-2 text-xs px-1.5 py-0.5 rounded-full bg-green-100 text-green-700">new sheet</span>}
+          {sheetStatus === 'removed' && <span className="ml-2 text-xs px-1.5 py-0.5 rounded-full bg-red-100 text-red-700">removed sheet</span>}
+        </h2>
         <p className="text-sm text-gray-600">
           {summary.totalChanges} cell{summary.totalChanges !== 1 ? 's' : ''} changed
         </p>

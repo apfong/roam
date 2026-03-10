@@ -40,8 +40,8 @@ export default function Home() {
   if (stage === 'diffing' && beforeFile && afterFile) {
     return (
       <DiffView
-        before={beforeFile.sheets[0]}
-        after={afterFile.sheets[0]}
+        beforeSheets={beforeFile.sheets}
+        afterSheets={afterFile.sheets}
         beforeName={beforeFile.fileName}
         afterName={afterFile.fileName}
         onReset={reset}
