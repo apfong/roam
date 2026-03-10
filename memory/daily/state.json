@@ -1,6 +1,6 @@
 {
   "last_blocker_hash": "stripe-dns-social-discord",
-  "last_input_check": "2026-03-10T09:31:00-05:00",
+  "last_input_check": "2026-03-10T10:00:00-05:00",
   "blockers": [
     "Stripe activation (payments) — affects Playbook/DemandProof, NOT Sift",
     "oddlyuseful.io DNS (domain)",
@@ -8,7 +8,7 @@
     "Discord bot routing (from WhatsApp channel)"
   ],
   "unblocked_tracks": ["Sift development"],
-  "last_productive_session": "2026-03-10T09:31:00-05:00",
+  "last_productive_session": "2026-03-10T10:00:00-05:00",
   "last_strategy_update": "2026-03-08T16:03:00-05:00",
   "consecutive_noops": 0,
   "strategy_pivot": {
@@ -22,6 +22,9 @@
     "diff_overlay_ui_completed": "2026-03-10",
     "change_sidebar_with_summaries_completed": "2026-03-10",
     "file_upload_flow_completed": "2026-03-10",
-    "next_task": "Multi-sheet support + deploy to Vercel for demo"
+    "multi_sheet_support_completed": "2026-03-10",
+    "vercel_deployed": "2026-03-10",
+    "vercel_url": "https://sift-nine.vercel.app",
+    "next_task": "MVP launch checklist — landing page, polish, share with Alex"
   }
 }

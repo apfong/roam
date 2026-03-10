@@ -13,7 +13,8 @@
 - [x] Build diff overlay UI (green/red/yellow + change sidebar) ✅ (Mar 10)
 - [x] Change sidebar with AI summaries ✅ (Mar 10)
 - [x] File upload flow (drag-and-drop XLSX/CSV/ODS, client-side) ✅ (Mar 10)
-- [ ] Multi-sheet support
+- [x] Multi-sheet support ✅ (Mar 10)
+- [x] Deploy to Vercel for demo ✅ (Mar 10) — https://sift-nine.vercel.app
 - [ ] MVP launch
 - **NOT blocked on Stripe/DNS/social accounts**
 
