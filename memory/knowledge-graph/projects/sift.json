@@ -1,7 +1,7 @@
 {
   "name": "Sift",
   "type": "SaaS",
-  "status": "technical-spec-complete",
+  "status": "mvp-deployed",
   "description": "Spreadsheet diff/review tool — verification layer for AI-generated or human-edited spreadsheet changes",
   "thesis": "As AI generates more, verification becomes the bottleneck. Sift makes spreadsheet review fast and trustworthy.",
   "priority": 1,
@@ -18,5 +18,7 @@
     "devLog": "1478976834392821871",
     "bugs": "1478976835000996042"
   },
-  "lastUpdated": "2026-03-10"
+  "deployment": "https://sift-nine.vercel.app",
+  "landingPage": true,
+  "lastUpdated": "2026-03-12"
 }

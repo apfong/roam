@@ -20,6 +20,9 @@
 - **Nightly cron missed Discord conversations (Mar 8-10).** Strategy pivot sat in #general for 2 days uncaptured. Fix: always read key Discord channels during nightly review, not just session transcripts.
 - **Sift is the unblocked track.** Previous products were all blocked on Stripe/DNS/social accounts. Sift development requires none of those. Should have been building Sift since Mar 6.
 
+## Momentum Patterns
+- **Post-milestone: prep launch immediately.** After deploying an MVP, don't wait for review to start drafting launch posts, screenshots, and copy. Context is freshest right after shipping. Idle gaps after milestones waste momentum (Mar 10-12: 2 days idle after Sift MVP deploy).
+
 ## Operational Patterns
 - **Alex response time:** No response in ~14 hours (posted blockers afternoon of Mar 4, no action by Mar 5 2am). Plan for async with 24-48hr response cycles. Mar 5: 15+ hours with no response to Telegram ping.
 - **Work batching:** Most productive session was 11:30am-5pm Mar 4 — continuous building. Late night sessions (10pm+) correctly identified as low-ROI.

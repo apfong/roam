@@ -15,6 +15,9 @@
 - [x] File upload flow (drag-and-drop XLSX/CSV/ODS, client-side) ✅ (Mar 10)
 - [x] Multi-sheet support ✅ (Mar 10)
 - [x] Deploy to Vercel for demo ✅ (Mar 10) — https://sift-nine.vercel.app
+- [x] Landing page built and deployed ✅ (Mar 10)
+- [ ] Alex reviews landing page + app UX
+- [ ] Prepare launch posts (Reddit, HN)
 - [ ] MVP launch
 - **NOT blocked on Stripe/DNS/social accounts**
 

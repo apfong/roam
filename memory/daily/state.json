@@ -1,16 +1,17 @@
 {
-  "last_blocker_hash": "stripe-dns-social-discord",
-  "last_input_check": "2026-03-10T10:00:00-05:00",
+  "last_blocker_hash": "stripe-dns-social-discord-alexreview",
+  "last_input_check": "2026-03-10T21:30:00-05:00",
   "blockers": [
     "Stripe activation (payments) — affects Playbook/DemandProof, NOT Sift",
     "oddlyuseful.io DNS (domain)",
     "Twitter/Reddit access (distribution)",
-    "Discord bot routing (from WhatsApp channel)"
+    "Discord bot routing (from WhatsApp channel)",
+    "Alex reviews Sift landing page + app UX"
   ],
-  "unblocked_tracks": ["Sift development"],
-  "last_productive_session": "2026-03-10T10:00:00-05:00",
+  "unblocked_tracks": ["Sift launch posts (drafted, awaiting approval)"],
+  "last_productive_session": "2026-03-10T11:00:00-05:00",
   "last_strategy_update": "2026-03-08T16:03:00-05:00",
-  "consecutive_noops": 0,
+  "consecutive_noops": 7,
   "strategy_pivot": {
     "date": "2026-03-08",
     "priorities": ["Sift", "Local Food Source Intelligence", "Competitive Intel / Newsletter"],
@@ -25,6 +26,9 @@
     "multi_sheet_support_completed": "2026-03-10",
     "vercel_deployed": "2026-03-10",
     "vercel_url": "https://sift-nine.vercel.app",
-    "next_task": "MVP launch checklist — landing page, polish, share with Alex"
+    "landing_page_completed": "2026-03-10",
+    "launch_posts_drafted": "2026-03-10",
+    "app_route": "/app",
+    "next_task": "Alex approves landing page + launch posts, then publish to Reddit/HN"
   }
 }
