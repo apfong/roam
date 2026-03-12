@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopify App Intel — Weekly competitive intelligence for Shopify merchants & developers</title>
+  <meta name="description" content="Know what's changing in the Shopify App Store before your competitors do. Weekly newsletter tracking new apps, pricing changes, rating shifts, and market trends. $19/mo.">
+  <meta property="og:title" content="Shopify App Intel — Know the App Store before your competitors">
+  <meta property="og:description" content="Weekly competitive intelligence on the Shopify App Store. New apps, pricing changes, rating shifts, market trends.">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Inter', -apple-system, sans-serif;
+      color: #1a1a2e;
+      background: #fafbfc;
+      line-height: 1.6;
+    }
+    .container { max-width: 720px; margin: 0 auto; padding: 0 24px; }
+
+    /* Hero */
+    .hero {
+      padding: 80px 0 60px;
+      text-align: center;
+    }
+    .badge {
+      display: inline-block;
+      background: #e8f5e9;
+      color: #2e7d32;
+      font-size: 13px;
+      font-weight: 600;
+      padding: 6px 14px;
+      border-radius: 20px;
+      margin-bottom: 24px;
+    }
+    h1 {
+      font-size: 44px;
+      font-weight: 800;
+      line-height: 1.15;
+      margin-bottom: 20px;
+      letter-spacing: -1px;
+    }
+    h1 span { color: #5c6bc0; }
+    .subtitle {
+      font-size: 19px;
+      color: #555;
+      max-width: 560px;
+      margin: 0 auto 36px;
+    }
+
+    /* CTA */
+    .cta-box {
+      background: white;
+      border: 1px solid #e0e0e0;
+      border-radius: 16px;
+      padding: 32px;
+      max-width: 480px;
+      margin: 0 auto;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.06);
+    }
+    .price {
+      font-size: 36px;
+      font-weight: 800;
+      margin-bottom: 4px;
+    }
+    .price-sub {
+      color: #777;
+      font-size: 14px;
+      margin-bottom: 20px;
+    }
+    .email-form {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 12px;
+    }
+    .email-form input {
+      flex: 1;
+      padding: 14px 16px;
+      border: 2px solid #e0e0e0;
+      border-radius: 10px;
+      font-size: 15px;
+      font-family: inherit;
+      outline: none;
+      transition: border-color 0.2s;
+    }
+    .email-form input:focus { border-color: #5c6bc0; }
+    .email-form button {
+      padding: 14px 28px;
+      background: #5c6bc0;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      font-size: 15px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.2s;
+      white-space: nowrap;
+    }
+    .email-form button:hover { background: #3f51b5; }
+    .fine-print {
+      font-size: 12px;
+      color: #999;
+    }
+
+    /* Sample */
+    .sample {
+      padding: 60px 0;
+    }
+    .sample h2 {
+      font-size: 28px;
+      font-weight: 700;
+      text-align: center;
+      margin-bottom: 8px;
+    }
+    .sample .label {
+      text-align: center;
+      color: #777;
+      font-size: 15px;
+      margin-bottom: 32px;
+    }
+    .sample-card {
+      background: white;
+      border: 1px solid #e0e0e0;
+      border-radius: 16px;
+      padding: 32px;
+      box-shadow: 0 2px 16px rgba(0,0,0,0.04);
+    }
+    .sample-card h3 {
+      font-size: 20px;
+      margin-bottom: 16px;
+      padding-bottom: 12px;
+      border-bottom: 2px solid #f0f0f0;
+    }
+    .metric-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+      margin-bottom: 24px;
+    }
+    .metric {
+      background: #f7f8fc;
+      padding: 16px;
+      border-radius: 10px;
+      text-align: center;
+    }
+    .metric .num {
+      font-size: 28px;
+      font-weight: 700;
+      color: #5c6bc0;
+    }
+    .metric .desc {
+      font-size: 12px;
+      color: #777;
+      margin-top: 4px;
+    }
+    .insight {
+      padding: 12px 16px;
+      background: #fff8e1;
+      border-left: 4px solid #ffc107;
+      border-radius: 0 8px 8px 0;
+      margin-bottom: 12px;
+      font-size: 14px;
+    }
+    .insight strong { color: #1a1a2e; }
+
+    /* What You Get */
+    .features {
+      padding: 60px 0;
+    }
+    .features h2 {
+      font-size: 28px;
+      font-weight: 700;
+      text-align: center;
+      margin-bottom: 36px;
+    }
+    .feature-list {
+      display: grid;
+      gap: 20px;
+    }
+    .feature-item {
+      display: flex;
+      gap: 16px;
+      align-items: flex-start;
+    }
+    .feature-icon {
+      font-size: 24px;
+      flex-shrink: 0;
+      width: 48px;
+      height: 48px;
+      background: #f0f1fa;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .feature-item h3 {
+      font-size: 16px;
+      font-weight: 600;
+      margin-bottom: 4px;
+    }
+    .feature-item p {
+      font-size: 14px;
+      color: #666;
+    }
+
+    /* Who */
+    .who {
+      padding: 60px 0;
+      text-align: center;
+    }
+    .who h2 {
+      font-size: 28px;
+      font-weight: 700;
+      margin-bottom: 24px;
+    }
+    .persona-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+    }
+    .persona {
+      background: white;
+      border: 1px solid #e8e8e8;
+      border-radius: 12px;
+      padding: 24px 16px;
+    }
+    .persona .emoji { font-size: 32px; margin-bottom: 8px; }
+    .persona h3 { font-size: 15px; font-weight: 600; margin-bottom: 6px; }
+    .persona p { font-size: 13px; color: #666; }
+
+    /* Footer CTA */
+    .footer-cta {
+      padding: 60px 0;
+      text-align: center;
+    }
+    .footer-cta h2 {
+      font-size: 28px;
+      font-weight: 700;
+      margin-bottom: 12px;
+    }
+    .footer-cta p {
+      color: #666;
+      margin-bottom: 24px;
+    }
+
+    footer {
+      padding: 32px 0;
+      text-align: center;
+      color: #aaa;
+      font-size: 13px;
+      border-top: 1px solid #eee;
+    }
+    footer a { color: #888; }
+
+    @media (max-width: 600px) {
+      h1 { font-size: 32px; }
+      .metric-grid, .persona-grid { grid-template-columns: 1fr; }
+      .email-form { flex-direction: column; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <section class="hero">
+    <div class="badge">📊 New — launching March 2026</div>
+    <h1>Know the <span>Shopify App Store</span> before your competitors</h1>
+    <p class="subtitle">Weekly competitive intelligence newsletter. New apps, pricing changes, rating shifts, and market trends — delivered every Monday.</p>
+
+    <div class="cta-box">
+      <div class="price">$19<span style="font-size:18px;font-weight:500;color:#777">/month</span></div>
+      <div class="price-sub">Cancel anytime. First issue free.</div>
+      <form class="email-form" id="signup-form">
+        <input type="email" placeholder="you@company.com" required id="email-input">
+        <button type="submit">Get Early Access</button>
+      </form>
+      <div class="fine-print">Join the waitlist — we'll notify you when the first issue drops.</div>
+    </div>
+  </section>
+
+  <section class="sample">
+    <h2>Here's what a real issue looks like</h2>
+    <p class="label">Excerpt from our pilot issue — March 12, 2026</p>
+
+    <div class="sample-card">
+      <h3>📊 Shopify App Intel — Week of Mar 10</h3>
+      <div class="metric-grid">
+        <div class="metric">
+          <div class="num">1</div>
+          <div class="desc">New App Spotted</div>
+        </div>
+        <div class="metric">
+          <div class="num">1</div>
+          <div class="desc">Pricing Change</div>
+        </div>
+        <div class="metric">
+          <div class="num">1</div>
+          <div class="desc">Rating Shift</div>
+        </div>
+      </div>
+
+      <div class="insight">
+        <strong>💰 Insightto: Real-time Feedback</strong> dropped from $9.99/mo to a free plan. They're switching to freemium — likely chasing install volume before their next fundraise.
+      </div>
+      <div class="insight">
+        <strong>🆕 GOVX ID Exclusive Discounts</strong> appeared in Marketing with 4.9⭐ (285 reviews). Military/first-responder discount niche — fast mover in a growing vertical.
+      </div>
+      <div class="insight">
+        <strong>⭐ Kwik AI Popups</strong> jumped from 3.5 to 5.0 stars. Possibly cleared old negative reviews or had a major quality push. Worth watching.
+      </div>
+    </div>
+  </section>
+
+  <section class="features">
+    <h2>What you get every week</h2>
+    <div class="feature-list">
+      <div class="feature-item">
+        <div class="feature-icon">🆕</div>
+        <div>
+          <h3>New app alerts</h3>
+          <p>Spot new competitors the week they launch — not months later when they have 500 reviews.</p>
+        </div>
+      </div>
+      <div class="feature-item">
+        <div class="feature-icon">💰</div>
+        <div>
+          <h3>Pricing changes</h3>
+          <p>Know when competitors raise prices (opportunity) or go freemium (threat) before your merchants do.</p>
+        </div>
+      </div>
+      <div class="feature-item">
+        <div class="feature-icon">⭐</div>
+        <div>
+          <h3>Rating shifts</h3>
+          <p>Catch review bombing, quality drops, or breakout apps early. Ratings move markets.</p>
+        </div>
+      </div>
+      <div class="feature-item">
+        <div class="feature-icon">📈</div>
+        <div>
+          <h3>Trend analysis</h3>
+          <p>Monthly deep-dives on category trends, emerging niches, and where the App Store is heading.</p>
+        </div>
+      </div>
+      <div class="feature-item">
+        <div class="feature-icon">🎯</div>
+        <div>
+          <h3>Actionable insights</h3>
+          <p>Not just data — analysis. We tell you what it means for your app or store.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="who">
+    <h2>Built for</h2>
+    <div class="persona-grid">
+      <div class="persona">
+        <div class="emoji">🧑‍💻</div>
+        <h3>Shopify App Devs</h3>
+        <p>Track your competitive landscape without manual App Store stalking.</p>
+      </div>
+      <div class="persona">
+        <div class="emoji">🏪</div>
+        <h3>Shopify Merchants</h3>
+        <p>Find better tools before everyone else. Spot apps raising prices early.</p>
+      </div>
+      <div class="persona">
+        <div class="emoji">📊</div>
+        <h3>Shopify Partners</h3>
+        <p>Recommend the right apps to clients. Stay ahead of ecosystem shifts.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="footer-cta">
+    <h2>Stop guessing. Start knowing.</h2>
+    <p>First issue is free. Paid subscription starts after you see the value.</p>
+    <div class="cta-box" style="display:inline-block;">
+      <form class="email-form" id="signup-form-2">
+        <input type="email" placeholder="you@company.com" required>
+        <button type="submit">Join the Waitlist</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>Shopify App Intel is a product of <a href="https://oddlyuseful.io">Oddly Useful</a>. Not affiliated with Shopify Inc.</p>
+  </footer>
+</div>
+
+<script>
+  // Simple waitlist — localStorage for now, will connect to email service + Stripe later
+  document.querySelectorAll('form').forEach(form => {
+    form.addEventListener('submit', e => {
+      e.preventDefault();
+      const input = form.querySelector('input[type="email"]');
+      const email = input.value;
+      const existing = JSON.parse(localStorage.getItem('waitlist') || '[]');
+      if (!existing.includes(email)) {
+        existing.push(email);
+        localStorage.setItem('waitlist', JSON.stringify(existing));
+      }
+      form.innerHTML = '<p style="color:#2e7d32;font-weight:600;padding:14px 0;">✅ You\'re on the list! We\'ll email you when the first issue drops.</p>';
+    });
+  });
+</script>
+
+</body>
+</html>

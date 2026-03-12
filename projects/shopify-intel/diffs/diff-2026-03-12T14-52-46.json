@@ -1,0 +1,67 @@
+{
+  "generatedAt": "2026-03-12T14:52:46.246Z",
+  "oldSnapshot": "2026-03-10T00:00:00.000Z",
+  "newSnapshot": "2026-03-12T14:52:32.696Z",
+  "summary": {
+    "newApps": 1,
+    "removedApps": 1,
+    "appsWithChanges": 2
+  },
+  "added": [
+    {
+      "handle": "govx-id",
+      "name": "GOVX ID Exclusive Discounts",
+      "url": "https://apps.shopify.com/govx-id",
+      "developer": null,
+      "pricing": "Free to install",
+      "rating": 4.9,
+      "reviewCount": 285,
+      "description": "Launch a military and first responder discount on your store.",
+      "categories": [
+        "marketing"
+      ],
+      "dateFirstSeen": "2026-03-12"
+    }
+  ],
+  "removed": [
+    {
+      "handle": "fake-new-app",
+      "name": "Fake New App",
+      "url": "",
+      "developer": null,
+      "pricing": "Free",
+      "rating": 4.5,
+      "reviewCount": 100,
+      "description": "test",
+      "categories": [
+        "marketing"
+      ],
+      "dateFirstSeen": "2026-03-10"
+    }
+  ],
+  "changes": [
+    {
+      "handle": "kwikbooster",
+      "name": "Kwik AI Popups ‑ Email Capture",
+      "changes": [
+        {
+          "type": "rating",
+          "old": 3.5,
+          "new": 5,
+          "delta": 1.5
+        }
+      ]
+    },
+    {
+      "handle": "insightto-ai",
+      "name": "Insightto: Real‑time Feedback",
+      "changes": [
+        {
+          "type": "pricing",
+          "old": "From $9.99/month",
+          "new": "Free plan available"
+        }
+      ]
+    }
+  ]
+}

@@ -1,18 +1,15 @@
 {
   "last_blocker_hash": "stripe-dns-social-discord-alexreview",
-  "last_input_check": "2026-03-12T10:31:00-05:00",
+  "last_input_check": "2026-03-12T11:00:00-05:00",
   "blockers": [
-    "Stripe activation (payments) — affects Playbook/DemandProof, NOT Sift",
+    "Stripe activation (payments) — affects Playbook/DemandProof/Shopify Intel",
     "oddlyuseful.io DNS (domain)",
     "Twitter/Reddit access (distribution)",
     "Discord bot routing (from WhatsApp channel)",
     "Alex reviews Sift landing page + app UX"
   ],
-  "unblocked_tracks": [
-    "Competitive Intel Newsletter (niche research in progress)",
-    "Sift launch posts (drafted, awaiting approval)"
-  ],
-  "last_productive_session": "2026-03-12T10:31:00-05:00",
+  "unblocked_tracks": [],
+  "last_productive_session": "2026-03-12T11:00:00-05:00",
   "last_strategy_update": "2026-03-08T16:03:00-05:00",
   "consecutive_noops": 0,
   "strategy_pivot": {
@@ -36,7 +33,13 @@
     "next_task": "Alex approves landing page + launch posts, then publish to Reddit/HN"
   },
   "compintel_progress": {
-    "niche_research_spawned": "2026-03-12",
-    "status": "sub-agent researching niches"
+    "niche_research_completed": "2026-03-12",
+    "niche_selected": "Shopify App Ecosystem Intel",
+    "scraper_completed": "2026-03-12T10:53:00-05:00",
+    "landing_page_completed": "2026-03-12T11:00:00-05:00",
+    "landing_page_url": "https://site-seven-blue-23.vercel.app",
+    "scraper_path": "~/roam/projects/shopify-intel/",
+    "status": "scraper + landing page done, blocked on Stripe/DNS/distribution for launch",
+    "next_task": "Connect Stripe, get custom domain, soft launch on r/shopify"
   }
 }

@@ -1,0 +1,14 @@
+{
+  "name": "shopify-intel",
+  "version": "1.0.0",
+  "description": "Shopify App Store scraper for competitive intelligence newsletter",
+  "type": "module",
+  "scripts": {
+    "scrape": "node scrape.js",
+    "diff": "node diff.js",
+    "newsletter": "node newsletter.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0"
+  }
+}

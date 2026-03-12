@@ -1,0 +1,597 @@
+{
+  "timestamp": "2026-03-12T14:52:32.696Z",
+  "categories": [
+    "marketing"
+  ],
+  "totalApps": 42,
+  "apps": {
+    "govx-id": {
+      "handle": "govx-id",
+      "name": "GOVX ID Exclusive Discounts",
+      "url": "https://apps.shopify.com/govx-id",
+      "developer": null,
+      "pricing": "Free to install",
+      "rating": 4.9,
+      "reviewCount": 285,
+      "description": "Launch a military and first responder discount on your store.",
+      "categories": [
+        "marketing"
+      ],
+      "dateFirstSeen": "2026-03-12"
+    },
+    "kwikbooster": {
+      "handle": "kwikbooster",
+      "name": "Kwik AI Popups ‑ Email Capture",
+      "url": "https://apps.shopify.com/kwikbooster",
+      "developer": null,
+      "pricing": "Free plan available",
+      "rating": 5,
+      "reviewCount": 18,
+      "description": "Behavior-triggered AI popups to capture leads and grow sales",
+      "categories": [
+        "marketing"
+      ],
+      "dateFirstSeen": "2026-03-12"
+    },
+    "insightto-ai": {
+      "handle": "insightto-ai",
+      "name": "Insightto: Real‑time Feedback",
+      "url": "https://apps.shopify.com/insightto-ai",
+      "developer": null,
+      "pricing": "Free plan available",
+      "rating": null,
+      "reviewCount": 0,
+      "description": "AI micro-surveys capture key roadblocks for conversion lift",
+      "categories": [
+        "marketing"
+      ],
+      "dateFirstSeen": "2026-03-12"
+    },
+    "mailchimp": {
+      "handle": "mailchimp",
+      "name": "Mailchimp Email SMS Marketing",
+      "url": "https://apps.shopify.com/mailchimp",
+      "developer": null,
+      "pricing": "Free plan available",
+      "rating": 4.7,
+      "reviewCount": 1048,
+      "description": "Drive sales with email marketing, SMS, forms, and automation",
+      "categories": [
+        "marketing"
+      ],
+      "dateFirstSeen": "2026-03-12"
+    },
+    "seguno": {
+      "handle": "seguno",
+      "name": "Seguno Email Marketing",
+      "url": "https://apps.shopify.com/seguno",
+      "developer": null,
+      "pricing": "Free to install",
+      "rating": 4.8,
+      "reviewCount": 680,
+      "description": "Grow sales with email, newsletters, popups & automations",
+      "categories": [
+        "marketing"
+      ],
+      "dateFirstSeen": "2026-03-12"
+    },
+    "sealapps-product-review": {
+      "handle": "sealapps-product-review",
+      "name": "TrustWILL(Trustoo) Reviews app",
+      "url": "https://apps.shopify.com/sealapps-product-review",
+      "developer": null,
+      "pricing": "Free plan available",
+      "rating": 4.9,
+      "reviewCount": 1463,
+      "description": "Build trust with customer photot reviews,  testimonials",
+      "categories": [
+        "marketing"
+      ],
+      "dateFirstSeen": "2026-03-12"
+    },
+    "aliexpress-review-importer": {
+      "handle": "aliexpress-review-importer",
+      "name": "Judge.me Ali Reviews Importer",
+      "url": "https://apps.shopify.com/aliexpress-review-importer",
+      "developer": null,
+      "pricing": "Free",
+      "rating": 4.7,
+      "reviewCount": 133,
+      "description": "Import AliExpress reviews and grow your dropshipping store",
+      "categories": [
+        "marketing"
+      ],
+      "dateFirstSeen": "2026-03-12"
+    },
+    "free-shipping-bar": {
+      "handle": "free-shipping-bar",
+      "name": "Hextom: Free Shipping Bar",
+      "url": "https://apps.shopify.com/free-shipping-bar",
+      "developer": null,
+      "pricing": "Free plan available",
+      "rating": 4.9,
+      "reviewCount": 2947,
+      "description": "Increase sales with progressive free shipping messages",
+      "categories": [
+        "marketing"
+      ],
+      "dateFirstSeen": "2026-03-12"
+    },
+    "essential-post-purchase-upsell": {
+      "handle": "essential-post-purchase-upsell",
+      "name": "Essential Upsell & Cross Sell",
+      "url": "https://apps.shopify.com/essential-post-purchase-upsell",
+      "developer": null,
+      "pricing": "Free plan available",
+      "rating": 5,
+      "reviewCount": 2004,
+      "description": "Lift AOV with Frequently Bought Together Upsell and Cross-sell",
+      "categories": [
+        "marketing"
+      ],
+      "dateFirstSeen": "2026-03-12"
+    },
+    "smile-io": {
+      "handle": "smile-io",
+      "name": "Smile: Loyalty Program Rewards",
+      "url": "https://apps.shopify.com/smile-io",
+      "developer": null,
+      "pricing": "Free to install",
+      "rating": 4.9,
+      "reviewCount": 4129,
+      "description": "Build customer loyalty with points, rewards, referrals, VIP",
+      "categories": [
+        "marketing"
+      ],
+      "dateFirstSeen": "2026-03-12"
+    },
+    "instafeed": {
+      "handle": "instafeed",
+      "name": "Mintt‑Instafeed Instagram Feed",
+      "url": "https://apps.shopify.com/instafeed",
+      "developer": null,
+      "pricing": "Free plan available",
+      "rating": 4.9,
+      "reviewCount": 1549,
+      "description": "Show Insta posts, Reels & UGC as shoppable videos and feeds.",
+      "categories": [
+        "marketing"
+      ],
+      "dateFirstSeen": "2026-03-12"
+    },
+    "judgeme": {
+      "handle": "judgeme",
+      "name": "Judge.me Product Reviews App",
+      "url": "https://apps.shopify.com/judgeme",
+      "developer": null,
+      "pricing": "Free plan available",
+      "rating": 5,
+      "reviewCount": 36304,
+      "description": "Collect unlimited product reviews, star ratings, testimonials",
+      "categories": [
+        "marketing"
+      ],
+      "dateFirstSeen": "2026-03-12"
+    },
+    "bundler-product-bundles": {
+      "handle": "bundler-product-bundles",
+      "name": "Bundler ‑ Product Bundles",
+      "url": "https://apps.shopify.com/bundler-product-bundles",
+      "developer": null,
+      "pricing": "Free plan available",
+      "rating": 4.9,
+      "reviewCount": 1970,
+      "description": "Earn more with bundle offers, bundle deals & quantity breaks!",
+      "categories": [
+        "marketing"
+      ],
+      "dateFirstSeen": "2026-03-12"
+    },
+    "affliate-by-secomapp": {
+      "handle": "affliate-by-secomapp",
+      "name": "UpPromote Affiliate Marketing",
+      "url": "https://apps.shopify.com/affliate-by-secomapp",
+      "developer": null,
+      "pricing": "Free to install",
+      "rating": 4.9,
+      "reviewCount": 3198,
+      "description": "Drive referral sales loops with influencer & affiliate program",
+      "categories": [
+        "marketing"
+      ],
+      "dateFirstSeen": "2026-03-12"
+    },
+    "pagefly": {
+      "handle": "pagefly",
+      "name": "PageFly Landing Page Builder",
+      "url": "https://apps.shopify.com/pagefly",
+      "developer": null,
+      "pricing": "Free plan available",
+      "rating": 4.9,
+      "reviewCount": 5774,
+      "description": "Build proven CRO-focused pages with pro flexible customization",
+      "categories": [
+        "marketing"
+      ],
+      "dateFirstSeen": "2026-03-12"
+    },
+    "ecomposer": {
+      "handle": "ecomposer",
+      "name": "EComposer Landing Page Builder",
+      "url": "https://apps.shopify.com/ecomposer",
+      "developer": null,
+      "pricing": "Free plan available",
+      "rating": 4.9,
+      "reviewCount": 3466,
+      "description": "Easy landing page builder, homepage, product page, blog & more",
+      "categories": [
+        "marketing"
+      ],
+      "dateFirstSeen": "2026-03-12"
+    },
+    "ecomsend": {
+      "handle": "ecomsend",
+      "name": "SendWILL Popup Email Marketing",
+      "url": "https://apps.shopify.com/ecomsend",
+      "developer": null,
+      "pricing": "Free",
+      "rating": 4.9,
+      "reviewCount": 7137,
+      "description": "",
+      "categories": [
+        "marketing"
+      ],
+      "dateFirstSeen": "2026-03-12"
+    },
+    "rez-back-in-stock-notify-me": {
+      "handle": "rez-back-in-stock-notify-me",
+      "name": "REZ Preorder, Back In Stock",
+      "url": "https://apps.shopify.com/rez-back-in-stock-notify-me",
+      "developer": null,
+      "pricing": "Free",
+      "rating": 5,
+      "reviewCount": 517,
+      "description": "",
+      "categories": [
+        "marketing"
+      ],
+      "dateFirstSeen": "2026-03-12"
+    },
+    "flow": {
+      "handle": "flow",
+      "name": "Shopify Flow",
+      "url": "https://apps.shopify.com/flow",
+      "developer": null,
+      "pricing": "Free",
+      "rating": 4.7,
+      "reviewCount": 8433,
+      "description": "",
+      "categories": [
+        "marketing"
+      ],
+      "dateFirstSeen": "2026-03-12"
+    },
+    "pop-convert": {
+      "handle": "pop-convert",
+      "name": "Pop Convert ‑ Pop Ups, Banners",
+      "url": "https://apps.shopify.com/pop-convert",
+      "developer": null,
+      "pricing": "Free plan available",
+      "rating": 4.9,
+      "reviewCount": 8583,
+      "description": "",
+      "categories": [
+        "marketing"
+      ],
+      "dateFirstSeen": "2026-03-12"
+    },
+    "klaviyo-email-marketing": {
+      "handle": "klaviyo-email-marketing",
+      "name": "Klaviyo: Email Marketing & SMS",
+      "url": "https://apps.shopify.com/klaviyo-email-marketing",
+      "developer": null,
+      "pricing": "Free to install",
+      "rating": 4.5,
+      "reviewCount": 2570,
+      "description": "",
+      "categories": [
+        "marketing"
+      ],
+      "dateFirstSeen": "2026-03-12"
+    },
+    "trustshop": {
+      "handle": "trustshop",
+      "name": "TrustShop: Product Reviews",
+      "url": "https://apps.shopify.com/trustshop",
+      "developer": null,
+      "pricing": "Free plan available",
+      "rating": 4.9,
+      "reviewCount": 284,
+      "description": "",
+      "categories": [
+        "marketing"
+      ],
+      "dateFirstSeen": "2026-03-12"
+    },
+    "omnisend": {
+      "handle": "omnisend",
+      "name": "Omnisend Email Marketing & SMS",
+      "url": "https://apps.shopify.com/omnisend",
+      "developer": null,
+      "pricing": "Free to install",
+      "rating": 4.7,
+      "reviewCount": 2926,
+      "description": "",
+      "categories": [
+        "marketing"
+      ],
+      "dateFirstSeen": "2026-03-12"
+    },
+    "vimeo_product_video_maker": {
+      "handle": "vimeo_product_video_maker",
+      "name": "Vimeo Create ‑ Video Maker",
+      "url": "https://apps.shopify.com/vimeo_product_video_maker",
+      "developer": null,
+      "pricing": "Free trial available",
+      "rating": 4.3,
+      "reviewCount": 99,
+      "description": "",
+      "categories": [
+        "marketing"
+      ],
+      "dateFirstSeen": "2026-03-12"
+    },
+    "gtm-datalayer-by-elevar": {
+      "handle": "gtm-datalayer-by-elevar",
+      "name": "Elevar Conversion Tracking",
+      "url": "https://apps.shopify.com/gtm-datalayer-by-elevar",
+      "developer": null,
+      "pricing": "Free to install",
+      "rating": 4.6,
+      "reviewCount": 148,
+      "description": "",
+      "categories": [
+        "marketing"
+      ],
+      "dateFirstSeen": "2026-03-12"
+    },
+    "goaffpro": {
+      "handle": "goaffpro",
+      "name": "GOAFFPRO ‑ Affiliate Marketing",
+      "url": "https://apps.shopify.com/goaffpro",
+      "developer": null,
+      "pricing": "Free plan available",
+      "rating": 4.7,
+      "reviewCount": 890,
+      "description": "",
+      "categories": [
+        "marketing"
+      ],
+      "dateFirstSeen": "2026-03-12"
+    },
+    "bixgrow-affiliate-marketing": {
+      "handle": "bixgrow-affiliate-marketing",
+      "name": "BixGrow Affiliate Marketing",
+      "url": "https://apps.shopify.com/bixgrow-affiliate-marketing",
+      "developer": null,
+      "pricing": "Free plan available",
+      "rating": 4.9,
+      "reviewCount": 1200,
+      "description": "",
+      "categories": [
+        "marketing"
+      ],
+      "dateFirstSeen": "2026-03-12"
+    },
+    "snapchat-ads": {
+      "handle": "snapchat-ads",
+      "name": "Snapchat Ads",
+      "url": "https://apps.shopify.com/snapchat-ads",
+      "developer": null,
+      "pricing": "Free to install",
+      "rating": 4.7,
+      "reviewCount": 610,
+      "description": "",
+      "categories": [
+        "marketing"
+      ],
+      "dateFirstSeen": "2026-03-12"
+    },
+    "adroll-retargeting": {
+      "handle": "adroll-retargeting",
+      "name": "AdRoll Marketing & Advertising",
+      "url": "https://apps.shopify.com/adroll-retargeting",
+      "developer": null,
+      "pricing": "Free to install",
+      "rating": 4.3,
+      "reviewCount": 331,
+      "description": "",
+      "categories": [
+        "marketing"
+      ],
+      "dateFirstSeen": "2026-03-12"
+    },
+    "qr-code-designer": {
+      "handle": "qr-code-designer",
+      "name": "o2o ‑ QR Codes Unlimited",
+      "url": "https://apps.shopify.com/qr-code-designer",
+      "developer": null,
+      "pricing": "Free plan available",
+      "rating": 4.5,
+      "reviewCount": 120,
+      "description": "",
+      "categories": [
+        "marketing"
+      ],
+      "dateFirstSeen": "2026-03-12"
+    },
+    "google": {
+      "handle": "google",
+      "name": "Google & YouTube",
+      "url": "https://apps.shopify.com/google",
+      "developer": null,
+      "pricing": "Free to install",
+      "rating": 4.5,
+      "reviewCount": 4620,
+      "description": "",
+      "categories": [
+        "marketing"
+      ],
+      "dateFirstSeen": "2026-03-12"
+    },
+    "shopify-audiences": {
+      "handle": "shopify-audiences",
+      "name": "Shopify Audiences",
+      "url": "https://apps.shopify.com/shopify-audiences",
+      "developer": null,
+      "pricing": "Free",
+      "rating": 3.4,
+      "reviewCount": 21,
+      "description": "",
+      "categories": [
+        "marketing"
+      ],
+      "dateFirstSeen": "2026-03-12"
+    },
+    "gempages": {
+      "handle": "gempages",
+      "name": "GemPages Landing Page Builder",
+      "url": "https://apps.shopify.com/gempages",
+      "developer": null,
+      "pricing": "Free plan available",
+      "rating": 4.9,
+      "reviewCount": 3511,
+      "description": "",
+      "categories": [
+        "marketing"
+      ],
+      "dateFirstSeen": "2026-03-12"
+    },
+    "vitals": {
+      "handle": "vitals",
+      "name": "Vitals: Reviews, Bundles & 40+",
+      "url": "https://apps.shopify.com/vitals",
+      "developer": null,
+      "pricing": "Free trial available",
+      "rating": 4.9,
+      "reviewCount": 2640,
+      "description": "",
+      "categories": [
+        "marketing"
+      ],
+      "dateFirstSeen": "2026-03-12"
+    },
+    "upcart-cart-builder": {
+      "handle": "upcart-cart-builder",
+      "name": "Upcart—Cart Drawer Cart Upsell",
+      "url": "https://apps.shopify.com/upcart-cart-builder",
+      "developer": null,
+      "pricing": "Free plan available",
+      "rating": 4.6,
+      "reviewCount": 725,
+      "description": "",
+      "categories": [
+        "marketing"
+      ],
+      "dateFirstSeen": "2026-03-12"
+    },
+    "collective": {
+      "handle": "collective",
+      "name": "Shopify Collective",
+      "url": "https://apps.shopify.com/collective",
+      "developer": null,
+      "pricing": "Free",
+      "rating": 4.3,
+      "reviewCount": 221,
+      "description": "",
+      "categories": [
+        "marketing"
+      ],
+      "dateFirstSeen": "2026-03-12"
+    },
+    "custom-options": {
+      "handle": "custom-options",
+      "name": "Infinite Product Options",
+      "url": "https://apps.shopify.com/custom-options",
+      "developer": null,
+      "pricing": "Free trial available",
+      "rating": 4.7,
+      "reviewCount": 2320,
+      "description": "",
+      "categories": [
+        "marketing"
+      ],
+      "dateFirstSeen": "2026-03-12"
+    },
+    "subscription-payments": {
+      "handle": "subscription-payments",
+      "name": "Recharge Subscriptions App",
+      "url": "https://apps.shopify.com/subscription-payments",
+      "developer": null,
+      "pricing": "Free trial available",
+      "rating": 4.8,
+      "reviewCount": 2077,
+      "description": "",
+      "categories": [
+        "marketing"
+      ],
+      "dateFirstSeen": "2026-03-12"
+    },
+    "back-in-stock-restock-alerts": {
+      "handle": "back-in-stock-restock-alerts",
+      "name": "Preorder, Back In Stock ‑ STOQ",
+      "url": "https://apps.shopify.com/back-in-stock-restock-alerts",
+      "developer": null,
+      "pricing": "Free plan available",
+      "rating": 4.9,
+      "reviewCount": 2794,
+      "description": "",
+      "categories": [
+        "marketing"
+      ],
+      "dateFirstSeen": "2026-03-12"
+    },
+    "search-and-discovery": {
+      "handle": "search-and-discovery",
+      "name": "Shopify Search & Discovery",
+      "url": "https://apps.shopify.com/search-and-discovery",
+      "developer": null,
+      "pricing": "Free",
+      "rating": 3.4,
+      "reviewCount": 463,
+      "description": "",
+      "categories": [
+        "marketing"
+      ],
+      "dateFirstSeen": "2026-03-12"
+    },
+    "easy-order-form": {
+      "handle": "easy-order-form",
+      "name": "EasySell COD Form & Upsells",
+      "url": "https://apps.shopify.com/easy-order-form",
+      "developer": null,
+      "pricing": "Free to install",
+      "rating": 4.9,
+      "reviewCount": 764,
+      "description": "",
+      "categories": [
+        "marketing"
+      ],
+      "dateFirstSeen": "2026-03-12"
+    },
+    "junip": {
+      "handle": "junip",
+      "name": "Junip Product Reviews App & AI",
+      "url": "https://apps.shopify.com/junip",
+      "developer": null,
+      "pricing": "Free plan available",
+      "rating": 4.9,
+      "reviewCount": 992,
+      "description": "",
+      "categories": [
+        "marketing"
+      ],
+      "dateFirstSeen": "2026-03-12"
+    }
+  }
+}

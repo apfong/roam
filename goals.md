@@ -28,10 +28,13 @@
 - [ ] Alex validates taste/quality in NYC
 - **Content product — can start as research, low cost to launch**
 
-### Track 0c: Competitive Intel / Newsletter (PRIORITY #3)
-- [ ] Pick niche
-- [ ] Build automated monitoring pipeline
-- [ ] Launch newsletter MVP
+### Track 0c: Shopify App Intel Newsletter (PRIORITY #3)
+- [x] Pick niche — Shopify App Ecosystem Intel ✅ (Mar 12)
+- [x] Build Shopify App Store scraper ✅ (Mar 12) — 125 apps, 5 categories
+- [x] Generate sample newsletter issue ✅ (Mar 12)
+- [x] Build landing page ✅ (Mar 12) — https://site-seven-blue-23.vercel.app
+- [ ] Connect Stripe checkout ($19/mo) — BLOCKED on Stripe activation
+- [ ] Soft launch: r/shopify, Shopify Partner forums, Twitter
 - **Fastest path to revenue — weeks not months**
 
 ### Track 1: Product Discovery (DEPRIORITIZED — superseded by Mar 8 strategy pivot)
