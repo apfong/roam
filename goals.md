@@ -24,9 +24,13 @@
 ### Track 0b: Local Food Source Intelligence (PRIORITY #2)
 - [x] Scope NYC MVP (research: fish markets, specialty grocers, farmers markets) ✅ (Mar 12)
 - [x] Initial supplier database built (17 entries) ✅ (Mar 12)
-- [ ] Build metro-specific sourcing guide format
-- [ ] Research wholesale-to-retail bridge model
-- [ ] Alex validates taste/quality in NYC
+- [x] NYC seasonal calendar (full year, produce + seafood) ✅ (Mar 12)
+- [x] Sample newsletter issue #1 written ✅ (Mar 12)
+- [x] Landing page built & deployed ✅ (Mar 12) — https://nyc-source-intel.vercel.app
+- [ ] Alex reviews landing page + sample issue
+- [ ] Set up Beehiiv for email delivery
+- [ ] Write launch posts (r/KitchenConfidential, r/nyc, r/Chefit)
+- [ ] Connect Stripe ($12/mo)
 - **Content product — can start as research, low cost to launch**
 
 ### Track 0c: Shopify App Intel Newsletter (PRIORITY #3)

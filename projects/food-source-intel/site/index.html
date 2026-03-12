@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NYC Source Intel — Sourcing intelligence for NYC chefs & serious cooks</title>
+  <meta name="description" content="Weekly sourcing intelligence for NYC restaurants and serious cooks. What's in season, where to get it, wholesale vs retail pricing, and new supplier finds.">
+  <meta property="og:title" content="NYC Source Intel — Know what to buy, where to source it">
+  <meta property="og:description" content="Weekly sourcing intelligence for NYC chefs. Seasonal guides, supplier spotlights, price comparisons, and new finds.">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Inter', -apple-system, sans-serif;
+      color: #1a1a2e;
+      background: #fafbfc;
+      line-height: 1.6;
+    }
+    .container { max-width: 720px; margin: 0 auto; padding: 0 24px; }
+
+    .hero { padding: 80px 0 60px; text-align: center; }
+    .badge {
+      display: inline-block;
+      background: #e8f5e9;
+      color: #2e7d32;
+      font-size: 13px;
+      font-weight: 600;
+      padding: 6px 14px;
+      border-radius: 20px;
+      margin-bottom: 24px;
+    }
+    h1 {
+      font-size: 44px;
+      font-weight: 800;
+      line-height: 1.15;
+      margin-bottom: 20px;
+      letter-spacing: -1px;
+    }
+    h1 span { color: #2e7d32; }
+    .subtitle {
+      font-size: 19px;
+      color: #555;
+      max-width: 560px;
+      margin: 0 auto 36px;
+    }
+
+    .cta-box {
+      background: white;
+      border: 1px solid #e0e0e0;
+      border-radius: 16px;
+      padding: 32px;
+      max-width: 480px;
+      margin: 0 auto;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.06);
+    }
+    .price { font-size: 36px; font-weight: 800; margin-bottom: 4px; }
+    .price-sub { color: #777; font-size: 14px; margin-bottom: 20px; }
+    .email-form { display: flex; gap: 10px; margin-bottom: 12px; }
+    .email-form input {
+      flex: 1; padding: 14px 16px;
+      border: 2px solid #e0e0e0; border-radius: 10px;
+      font-size: 15px; font-family: inherit; outline: none;
+      transition: border-color 0.2s;
+    }
+    .email-form input:focus { border-color: #2e7d32; }
+    .email-form button {
+      padding: 14px 28px; background: #2e7d32; color: white;
+      border: none; border-radius: 10px; font-size: 15px;
+      font-weight: 600; cursor: pointer; transition: background 0.2s;
+      white-space: nowrap;
+    }
+    .email-form button:hover { background: #1b5e20; }
+    .fine-print { font-size: 12px; color: #999; }
+
+    .sample { padding: 60px 0; }
+    .sample h2 { font-size: 28px; font-weight: 700; text-align: center; margin-bottom: 8px; }
+    .sample .label { text-align: center; color: #777; font-size: 15px; margin-bottom: 32px; }
+    .sample-card {
+      background: white; border: 1px solid #e0e0e0;
+      border-radius: 16px; padding: 32px;
+      box-shadow: 0 2px 16px rgba(0,0,0,0.04);
+    }
+    .sample-card h3 { font-size: 20px; margin-bottom: 16px; padding-bottom: 12px; border-bottom: 2px solid #f0f0f0; }
+    .insight {
+      padding: 12px 16px; border-left: 4px solid; border-radius: 0 8px 8px 0;
+      margin-bottom: 12px; font-size: 14px;
+    }
+    .insight-green { background: #e8f5e9; border-color: #4caf50; }
+    .insight-amber { background: #fff8e1; border-color: #ffc107; }
+    .insight-blue { background: #e3f2fd; border-color: #2196f3; }
+    .insight strong { color: #1a1a2e; }
+
+    .price-table { width: 100%; border-collapse: collapse; margin-top: 16px; font-size: 14px; }
+    .price-table th { text-align: left; padding: 8px; border-bottom: 2px solid #e0e0e0; font-weight: 600; font-size: 12px; text-transform: uppercase; color: #777; }
+    .price-table td { padding: 8px; border-bottom: 1px solid #f0f0f0; }
+    .price-table .savings { color: #2e7d32; font-weight: 600; }
+
+    .features { padding: 60px 0; }
+    .features h2 { font-size: 28px; font-weight: 700; text-align: center; margin-bottom: 36px; }
+    .feature-list { display: grid; gap: 20px; }
+    .feature-item { display: flex; gap: 16px; align-items: flex-start; }
+    .feature-icon {
+      font-size: 24px; flex-shrink: 0; width: 48px; height: 48px;
+      background: #e8f5e9; border-radius: 12px;
+      display: flex; align-items: center; justify-content: center;
+    }
+    .feature-item h3 { font-size: 16px; font-weight: 600; margin-bottom: 4px; }
+    .feature-item p { font-size: 14px; color: #666; }
+
+    .who { padding: 60px 0; text-align: center; }
+    .who h2 { font-size: 28px; font-weight: 700; margin-bottom: 24px; }
+    .persona-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+    .persona { background: white; border: 1px solid #e8e8e8; border-radius: 12px; padding: 24px 16px; }
+    .persona .emoji { font-size: 32px; margin-bottom: 8px; }
+    .persona h3 { font-size: 15px; font-weight: 600; margin-bottom: 6px; }
+    .persona p { font-size: 13px; color: #666; }
+
+    .footer-cta { padding: 60px 0; text-align: center; }
+    .footer-cta h2 { font-size: 28px; font-weight: 700; margin-bottom: 12px; }
+    .footer-cta p { color: #666; margin-bottom: 24px; }
+
+    footer { padding: 32px 0; text-align: center; color: #aaa; font-size: 13px; border-top: 1px solid #eee; }
+    footer a { color: #888; }
+
+    @media (max-width: 600px) {
+      h1 { font-size: 32px; }
+      .persona-grid { grid-template-columns: 1fr; }
+      .email-form { flex-direction: column; }
+      .price-table { font-size: 12px; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <section class="hero">
+    <div class="badge">🥬 NYC — launching March 2026</div>
+    <h1>Source <span>better ingredients</span> without the 3am market run</h1>
+    <p class="subtitle">Weekly sourcing intelligence for NYC chefs and serious cooks. What's in season, where to get it, and what it actually costs — wholesale vs. retail.</p>
+
+    <div class="cta-box">
+      <div class="price">$12<span style="font-size:18px;font-weight:500;color:#777">/month</span></div>
+      <div class="price-sub">Cancel anytime. First issue free.</div>
+      <form class="email-form" id="signup-form">
+        <input type="email" placeholder="you@restaurant.com" required id="email-input">
+        <button type="submit">Get Early Access</button>
+      </form>
+      <div class="fine-print">Join the waitlist — first issue drops soon.</div>
+    </div>
+  </section>
+
+  <section class="sample">
+    <h2>Here's what a real issue looks like</h2>
+    <p class="label">Excerpt from our pilot issue — March 12, 2026</p>
+
+    <div class="sample-card">
+      <h3>🥬 NYC Source Intel — Week of Mar 12</h3>
+
+      <div class="insight insight-green">
+        <strong>🌿 Ramps are here.</strong> First sightings at Union Square Greenmarket. Small quantities, $18-22/lb retail. Pre-order with your vendor now — peak is 3-4 weeks out. Wholesale: $12-15/lb.
+      </div>
+      <div class="insight insight-amber">
+        <strong>🦀 Soft-shell crab season starts mid-April.</strong> Call Element Seafood or your Fulton contact now to get on the first-flush list. First arrivals are premium-priced but pristine.
+      </div>
+      <div class="insight insight-blue">
+        <strong>🐟 Winter cod at its best.</strong> Atlantic cod from Georges Bank is at peak fat content right now. Whole fish $4-6/lb wholesale at Fulton. Perfect for: brandade, salt cod projects, crudo.
+      </div>
+
+      <h3 style="margin-top:24px;">💰 Price Watch — March 2026</h3>
+      <table class="price-table">
+        <thead>
+          <tr><th>Ingredient</th><th>Wholesale</th><th>Retail</th><th>Savings</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Ramps (lb)</td><td>$12-15</td><td>$18-22</td><td class="savings">~35%</td></tr>
+          <tr><td>Atlantic Cod, whole (lb)</td><td>$4-6</td><td>$12-15 (fillet)</td><td class="savings">~60%</td></tr>
+          <tr><td>Oysters (ea)</td><td>$0.65-1.10</td><td>$2.50-3.50</td><td class="savings">~70%</td></tr>
+          <tr><td>Spinach (lb)</td><td>$1.50-2.00</td><td>$3-4</td><td class="savings">~50%</td></tr>
+          <tr><td>Lemons (ea)</td><td>$0.15-0.25</td><td>$0.69-1.00</td><td class="savings">~70%</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="features">
+    <h2>Every week you get</h2>
+    <div class="feature-list">
+      <div class="feature-item">
+        <div class="feature-icon">🌿</div>
+        <div>
+          <h3>What's in season this week</h3>
+          <p>Produce and seafood peaking right now in the tri-state region, with sourcing notes.</p>
+        </div>
+      </div>
+      <div class="feature-item">
+        <div class="feature-icon">🔍</div>
+        <div>
+          <h3>Supplier spotlight</h3>
+          <p>Deep dive on one market, distributor, or vendor — hours, minimums, delivery, quality tier, and how to get started.</p>
+        </div>
+      </div>
+      <div class="feature-item">
+        <div class="feature-icon">💰</div>
+        <div>
+          <h3>Wholesale vs. retail pricing</h3>
+          <p>Side-by-side price comparisons for 10-15 key ingredients. Know exactly what you're saving (or overpaying).</p>
+        </div>
+      </div>
+      <div class="feature-item">
+        <div class="feature-icon">🆕</div>
+        <div>
+          <h3>New finds</h3>
+          <p>Recently opened suppliers, new product lines, pop-up markets, and under-the-radar sources worth knowing.</p>
+        </div>
+      </div>
+      <div class="feature-item">
+        <div class="feature-icon">📅</div>
+        <div>
+          <h3>Seasonal playbook</h3>
+          <p>What to buy now, what to pre-order for next month, and what to lock in before prices spike.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="who">
+    <h2>Built for</h2>
+    <div class="persona-grid">
+      <div class="persona">
+        <div class="emoji">👨‍🍳</div>
+        <h3>Restaurant Chefs</h3>
+        <p>Better ingredients, better prices, less time sourcing. Focus on cooking, not logistics.</p>
+      </div>
+      <div class="persona">
+        <div class="emoji">🍱</div>
+        <h3>Caterers & Meal Prep</h3>
+        <p>Seasonal menus that impress clients. Wholesale pricing that protects margins.</p>
+      </div>
+      <div class="persona">
+        <div class="emoji">🏠</div>
+        <h3>Serious Home Cooks</h3>
+        <p>Cook like a chef. Know what's actually in season and where the pros are buying.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="footer-cta">
+    <h2>Stop overpaying for yesterday's fish.</h2>
+    <p>First issue is free. See the value before you subscribe.</p>
+    <div class="cta-box" style="display:inline-block;">
+      <form class="email-form" id="signup-form-2">
+        <input type="email" placeholder="you@restaurant.com" required>
+        <button type="submit">Join the Waitlist</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>NYC Source Intel is a product of <a href="https://oddlyuseful.io">Oddly Useful</a>.</p>
+  </footer>
+</div>
+
+<script>
+  document.querySelectorAll('form').forEach(form => {
+    form.addEventListener('submit', e => {
+      e.preventDefault();
+      const input = form.querySelector('input[type="email"]');
+      const email = input.value;
+      const existing = JSON.parse(localStorage.getItem('fsi-waitlist') || '[]');
+      if (!existing.includes(email)) {
+        existing.push(email);
+        localStorage.setItem('fsi-waitlist', JSON.stringify(existing));
+      }
+      form.innerHTML = '<p style="color:#2e7d32;font-weight:600;padding:14px 0;">✅ You\'re on the list! We\'ll email you when the first issue drops.</p>';
+    });
+  });
+</script>
+
+</body>
+</html>
