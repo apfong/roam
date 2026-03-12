@@ -1,6 +1,6 @@
 {
   "last_blocker_hash": "stripe-dns-social-discord-alexreview",
-  "last_input_check": "2026-03-12T11:00:00-05:00",
+  "last_input_check": "2026-03-12T14:30:00-05:00",
   "blockers": [
     "Stripe activation (payments) — affects Playbook/DemandProof/Shopify Intel",
     "oddlyuseful.io DNS (domain)",
@@ -8,8 +8,8 @@
     "Discord bot routing (from WhatsApp channel)",
     "Alex reviews Sift landing page + app UX"
   ],
-  "unblocked_tracks": [],
-  "last_productive_session": "2026-03-12T11:00:00-05:00",
+  "unblocked_tracks": ["food-source-intel"],
+  "last_productive_session": "2026-03-12T14:30:00-05:00",
   "last_strategy_update": "2026-03-08T16:03:00-05:00",
   "consecutive_noops": 0,
   "strategy_pivot": {
@@ -41,5 +41,13 @@
     "scraper_path": "~/roam/projects/shopify-intel/",
     "status": "scraper + landing page done, blocked on Stripe/DNS/distribution for launch",
     "next_task": "Connect Stripe, get custom domain, soft launch on r/shopify"
+  },
+  "food_source_intel_progress": {
+    "scoped": "2026-03-12T14:30:00-05:00",
+    "supplier_db_entries": 17,
+    "project_path": "~/roam/projects/food-source-intel/",
+    "status": "scoped + initial supplier DB built",
+    "next_task": "NYC seasonal calendar → sample newsletter issue → Beehiiv setup → landing page",
+    "discord_post_pending": true
   }
 }

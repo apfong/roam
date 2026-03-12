@@ -1,0 +1,18 @@
+name,category,subcategory,location,borough,minimums,delivery,hours,quality_tier,website,phone,notes
+Hunts Point Produce Market,wholesale_market,produce,800 Food Center Dr,Bronx,varies by vendor,yes,1am-8am,all_tiers,huntspointproducemkt.com,,Largest wholesale produce market in US
+New Fulton Fish Market,wholesale_market,seafood,800 Food Center Dr,Bronx,varies by vendor,yes,1am-7am,all_tiers,fultonfishcooperative.com,,Co-op of ~30 vendors since 1822
+Hunts Point Meat Market,wholesale_market,meat,355 Food Center Dr,Bronx,varies by vendor,yes,24/7,all_tiers,,,Adjacent to produce market
+F. Rozzo & Sons,distributor,seafood,Chelsea area,Manhattan,yes,yes,business hours,premium,frozzoandsons.com,,Serves Michelin restaurants; daily Catch of the Day email
+LP Seafood & Specialty,distributor,seafood_specialty,,Manhattan,,yes,,premium,lpssnyc.com,,Hand-cut fish and shellfish
+Element Seafood,distributor,shellfish,,NYC,,yes,,premium,,,Family-run shellfish specialist
+Aqua Best,distributor,seafood,,NYC,,yes,,mid-premium,,,Family-run since 1980s
+Woolco Foods,distributor,specialty_organic,,NYC,,yes,,mid-premium,woolcofoods.net,,Organic natural specialty wholesale
+Victory Foodservice,distributor,ethnic_specialty,,NYC/NJ,,yes,,mid,victoryfoodservice.com,,Ethnic products and specialty ingredients
+Hong Thai Foods Corp,distributor,asian,East Williamsburg,Brooklyn,,yes,,mid,hongthaifoods.com,,Thai Taiwanese HK Vietnamese products
+Fadaro,distributor,produce_general,,NYC,none,yes,,mid,fadaro.com,,No minimum orders; online ordering
+Dorians Seafood Market,retail_wholesale,seafood,,Manhattan,,local delivery,,mid-premium,doriansseafood.com,,Traditional sustainable methods
+Restaurant Depot,cash_carry,broadline,multiple locations,multiple,none,no,Mon-Sat,commodity,restaurantdepot.com,,Membership required; cash and carry
+GrowNYC Greenmarket,farmers_market,produce,75+ locations,all boroughs,none,no,varies by market,premium,grownyc.org,,Year-round markets; Union Square is flagship
+Union Square Greenmarket,farmers_market,produce,Union Square,Manhattan,none,no,"Mon Wed Fri Sat",premium,grownyc.org/greenmarket,,Flagship market; year-round
+REKKI,platform,ordering,online,n/a,n/a,n/a,24/7,n/a,rekki.com,,Ordering platform connecting restaurants to suppliers
+BlueCart,platform,ordering,online,n/a,n/a,n/a,24/7,n/a,bluecart.com,,Wholesale ordering platform

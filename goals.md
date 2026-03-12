@@ -22,7 +22,8 @@
 - **NOT blocked on Stripe/DNS/social accounts**
 
 ### Track 0b: Local Food Source Intelligence (PRIORITY #2)
-- [ ] Scope NYC MVP (research: fish markets, specialty grocers, farmers markets)
+- [x] Scope NYC MVP (research: fish markets, specialty grocers, farmers markets) ✅ (Mar 12)
+- [x] Initial supplier database built (17 entries) ✅ (Mar 12)
 - [ ] Build metro-specific sourcing guide format
 - [ ] Research wholesale-to-retail bridge model
 - [ ] Alex validates taste/quality in NYC
